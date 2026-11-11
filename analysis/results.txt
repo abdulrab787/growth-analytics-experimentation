@@ -1,0 +1,23 @@
+
+=== A_true_lift ===
+SRM check (users 9,288 vs 9,329): p = 0.764  -> OK
+Checkout rate (primary)     control  9.11%  variant  9.94%  lift  +9.1% [+0.1%, +18.2%]  p=0.048  P(variant>control)=98.2%  exp.loss=0.003pp
+Purchase rate (guardrail)   control  4.77%  variant  5.06%  lift  +6.0% [-6.1%, +18.1%]  p=0.334  P(variant>control)=83.5%  exp.loss=0.025pp
+Checkout->purchase          control 52.43%  variant 50.91%
+Decision: SHIP
+
+=== B_aa_no_effect ===
+SRM check (users 9,288 vs 9,329): p = 0.764  -> OK
+Checkout rate (primary)     control  9.11%  variant  9.01%  lift  -1.0% [-9.9%, +7.8%]  p=0.818  P(variant>control)=40.3%  exp.loss=0.207pp
+Purchase rate (guardrail)   control  4.77%  variant  4.65%  lift  -2.7% [-14.6%, +9.2%]  p=0.655  P(variant>control)=32.5%  exp.loss=0.190pp
+Checkout->purchase          control 52.43%  variant 51.55%
+Decision: KEEP CONTROL - no detectable effect
+
+=== C_hollow_lift ===
+SRM check (users 9,288 vs 9,329): p = 0.764  -> OK
+Checkout rate (primary)     control  9.11%  variant  9.94%  lift  +9.1% [+0.1%, +18.2%]  p=0.048  P(variant>control)=98.2%  exp.loss=0.003pp
+Purchase rate (guardrail)   control  4.77%  variant  4.65%  lift  -2.7% [-14.6%, +9.2%]  p=0.655  P(variant>control)=32.5%  exp.loss=0.190pp
+Checkout->purchase          control 52.43%  variant 46.74%
+Decision: DON'T SHIP - checkout up but purchases did not follow
+
+January baseline 9.11% (plan assumed 14.42%). Power to detect +10% with 10,978 sessions/arm = 63%; 80% power needs 16,360/arm.

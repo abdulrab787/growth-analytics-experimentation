@@ -1,0 +1,7 @@
+scenario,arm,users,sessions,checkouts,purchases,sum_n2,sum_x2,sum_xn,sum_y2,sum_yn
+A_true_lift,control,9288,10849,988,518,15699,1194,1726,548,915
+A_true_lift,variant,9329,11108,1104,562,16892,1362,2052,616,1068
+B_aa_no_effect,control,9288,10849,988,518,15699,1194,1726,548,915
+B_aa_no_effect,variant,9329,11108,1001,516,16892,1255,1912,568,1003
+C_hollow_lift,control,9288,10849,988,518,15699,1194,1726,548,915
+C_hollow_lift,variant,9329,11108,1104,516,16892,1362,2052,568,1003
