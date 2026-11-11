@@ -2,7 +2,7 @@
 
 This project analyses the purchase funnel in the public GA4 e-commerce sample in BigQuery, finds where users drop off, and turns the results into an A/B test plan with sample sizes. The plan accounts for data quality and seasonality.
 
-**Stack:** BigQuery (GoogleSQL), Python (statsmodels)
+**Stack:** BigQuery (GoogleSQL), Python (statsmodels, scipy, numpy)
 **Data:** `bigquery-public-data.ga4_obfuscated_sample_ecommerce`, Nov 2020 – Jan 2021
 
 ## Key findings
@@ -12,8 +12,9 @@ This project analyses the purchase funnel in the public GA4 e-commerce sample in
 3. **Device type doesn't explain the leak.** Purchase rates run from 1.30% to 1.39% across devices. By first-touch medium, referral converts best (1.66%) and cpc worst (0.98%).
 4. **Seasonality is strong.** The 7-day purchase rate swings about 4x (0.5% to 2.1%) across Black Friday, December and January. Tests must avoid these windows.
 5. **Purchase rate can't be tested at this traffic level.** Detecting a 5% lift needs 35 weeks. The recommended test, which measures product-page-to-checkout rate, can detect a 10% lift in 4 weeks.
+6. **The test plan was checked with a simulation.** I simulated the recommended test on real January sessions in three versions: a real lift, an A/A run with no change, and a "hollow" lift where extra checkouts never become purchases. The decision rule shipped the real lift, found nothing in the A/A run and blocked the hollow lift. The simulation also showed the planned test was underpowered: January's baseline was lower than the three-month average, so the test had 63% power instead of 80%.
 
-The full plan is in [test_brief.md](test_brief.md).
+The full plan and results are in [test_brief.md](test_brief.md).
 
 ## Repo layout
 
@@ -24,8 +25,12 @@ sql/
   03_funnel.sql            step-by-step funnel conversion
   04_segments.sql          conversion by device and first-touch medium
   05_daily_baseline.sql    daily and 7-day rolling purchase rate
+  06_simulated_experiment.sql  simulated A/B test (3 scenarios) and per-arm summary
 analysis/
   sample_size.py           sample size and duration for each hypothesis
+  analyse_experiment.py    user-split check, delta-method z-test, Bayesian P(better), guardrails, decision
+  sim_results.csv          per-arm output of sql/06
+  results.txt              printed analysis output
 test_brief.md              hypotheses, recommended test design and decision rule
 ```
 
@@ -35,11 +40,12 @@ test_brief.md              hypotheses, recommended test design and decision rule
 2. Create a dataset called `ga4_practice` in the **US** location.
 3. Replace `YOUR_PROJECT` in each SQL file with your project ID.
 4. Run the SQL files in order. File 02 scans about 1.1 GB once, and every query after it runs on the small table it creates.
-5. Run the sample-size script:
+5. Run the Python scripts:
 
 ```
-pip install statsmodels
+pip install statsmodels scipy numpy
 python analysis/sample_size.py
+python analysis/analyse_experiment.py
 ```
 
 ## Caveats

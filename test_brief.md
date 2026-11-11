@@ -59,3 +59,21 @@ For comparison, testing overall purchase rate would need 471k sessions per arm (
 - The dataset is obfuscated: it has placeholder values such as `<Other>` and `(data deleted)`, and its internal consistency is limited.
 - The funnel counts sessions that reached each step, not a strict sequence.
 - Medium is first-touch, not session-level.
+
+## 7. Simulated results
+
+To practise reading a test, I ran H2 as a simulation on real sessions from 4–31 January 2021. That's 4 whole weeks after the holiday slump, with 21,957 sessions that viewed an item. Users were split 50/50 by a hash of `user_pseudo_id`, and the effect was added to the variant. The SQL is in `sql/06_simulated_experiment.sql` and the statistics in `analysis/analyse_experiment.py`. Standard errors are clustered by user using the delta method, because randomisation is by user but the analysis counts sessions.
+
+| Scenario | What was simulated | Checkout rate: control → variant | p-value | P(variant better) | Purchase-rate guardrail | Decision |
+|---|---|---|---|---|---|---|
+| A: real lift | +10% checkout starts, which buy at the normal rate | 9.11% → 9.94% (+9.1%, 95% CI +0.1% to +18.2%) | 0.048 | 98.2% | +6.0% (not significant) | **Ship** |
+| B: A/A test | No change | 9.11% → 9.01% (−1.0%) | 0.818 | 40.3% | −2.7% | **Keep the control** |
+| C: hollow lift | +10% checkout starts, none of which buy | 9.11% → 9.94% (+9.1%) | 0.048 | 98.2% | −2.7%, and checkout-to-purchase falls from 52.4% to 46.7% | **Don't ship** |
+
+The user split passed the check in every scenario: 9,288 vs 9,329 users, p = 0.76.
+
+**What the simulation shows**
+
+1. **The plan was underpowered for its actual time window.** January's baseline checkout rate was 9.1%, not the 14.4% average across all three months. With about 11,000 sessions per arm, the test had only 63% power to detect a 10% lift, and needed about 16,400 sessions per arm for 80%. A real 10% lift was only just detected (p = 0.048). Recalculate the baseline for the actual test window before launch, not from a long average.
+2. **The method doesn't invent winners.** The A/A run showed no difference, as it should.
+3. **Guardrails matter.** Scenarios A and C have exactly the same primary result. Only the purchase guardrail and the checkout-to-purchase rate reveal that C's extra checkouts never turned into orders. Shipping on the primary metric alone would have counted a worthless change as a win.
