@@ -1,0 +1,36 @@
+=== 1. Data checks ===
+rows 588,101 | duplicate user_id 0 | nulls 0
+groups: {'ad': 564577, 'psa': 23524} | converted values: [np.False_, np.True_]
+
+=== 2. The 96/4 split ===
+ad 564,577 (96.00%) | psa 23,524 (4.00%)
+vs an intended 50/50: chi-square p = 0.0e+00  -> only an SRM if 50/50 was the plan
+vs an intended 95%/5%: chi-square p = 3.16e-271
+vs an intended 96%/4%: chi-square p = 1
+No pre-treatment covariates exist (total_ads, most_ads_day/hour are all measured after assignment),
+so covariate balance between groups cannot be checked.
+
+=== 3. Two-proportion test (ad vs psa) ===
+ad  : 14,423/564,577 = 2.5547%
+psa : 420/23,524 = 1.7854%
+absolute diff +0.7692% (95% CI +0.5951% to +0.9434%)
+relative lift +43.1% (95% CI +30.0% to +57.5%)
+z = 7.37, p = 1.71e-13
+incremental conversions per 100k users shown ads: 769 (95% CI 595 to 943)
+
+=== 4. Power with this split ===
+minimum detectable relative lift at 80% power: +14.3%
+same total users split 50/50 would detect: +5.5%  (the small holdout is the binding constraint)
+
+=== 5. Why NOT to segment by total_ads (diagnostic only) ===
+test_group     ad    psa
+ads_band                
+1-10         0.33   0.40
+11-25        1.02   1.00
+26-50        3.54   2.66
+51-100      11.63   5.77
+100+        17.14  11.88
+Conversion climbs steeply with total_ads in the PSA group too, where no ad was shown:
+heavier users both see more impressions and convert more. total_ads is a consequence of
+engagement (and of treatment), so lift 'within ad bands' compares non-comparable users.
+median total_ads: ad 13, psa 12

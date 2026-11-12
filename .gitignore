@@ -1,3 +1,6 @@
 # Power BI local files
 **/.pbi/localSettings.json
 **/.pbi/cache.abf
+
+# Raw Kaggle data (download it yourself, see README)
+data/*.csv
