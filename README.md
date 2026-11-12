@@ -5,6 +5,16 @@ This project analyses the purchase funnel in the public GA4 e-commerce sample in
 **Stack:** BigQuery (GoogleSQL), Python (statsmodels, scipy, numpy), Power BI (PBIP, DAX, Power Query)
 **Data:** `bigquery-public-data.ga4_obfuscated_sample_ecommerce`, Nov 2020 – Jan 2021
 
+## Dashboard (Power BI)
+
+![Funnel page](powerbi/screenshots/01_funnel.png)
+
+| Segments | Trend & Seasonality | Experiment Readout |
+|---|---|---|
+| ![Segments](powerbi/screenshots/02_segments.png) | ![Trend and seasonality](powerbi/screenshots/03_trend_seasonality.png) | ![Experiment readout](powerbi/screenshots/04_experiment_readout.png) |
+
+It's a 4-page Power BI report saved in PBIP format, with navigation buttons, synced slicers, KPI cards and an insight panel on each page. To open it, see [powerbi/README.md](powerbi/README.md).
+
 ## Key findings
 
 1. **The funnel converts 1.35% of sessions to a purchase.** The biggest losses come before checkout: 21.4% of sessions view a product, and 19.7% of those add to cart.
