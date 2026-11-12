@@ -2,7 +2,7 @@
 
 This project analyses the purchase funnel in the public GA4 e-commerce sample in BigQuery, finds where users drop off, and turns the results into an A/B test plan with sample sizes. The plan accounts for data quality and seasonality.
 
-**Stack:** BigQuery (GoogleSQL), Python (statsmodels, scipy, numpy)
+**Stack:** BigQuery (GoogleSQL), Python (statsmodels, scipy, numpy), Power BI (PBIP, DAX, Power Query)
 **Data:** `bigquery-public-data.ga4_obfuscated_sample_ecommerce`, Nov 2020 – Jan 2021
 
 ## Key findings
@@ -31,8 +31,13 @@ analysis/
   analyse_experiment.py    user-split check, delta-method z-test, Bayesian P(better), guardrails, decision
   sim_results.csv          per-arm output of sql/06
   results.txt              printed analysis output
+powerbi/
+  GA4_Funnel_Dashboard.pbip   4-page dashboard: Funnel, Segments, Trend & Seasonality, Experiment Readout
+  data/                       CSV extracts used by the dashboard
 test_brief.md              hypotheses, recommended test design and decision rule
 ```
+
+To open the dashboard, see [powerbi/README.md](powerbi/README.md).
 
 ## How to run it
 

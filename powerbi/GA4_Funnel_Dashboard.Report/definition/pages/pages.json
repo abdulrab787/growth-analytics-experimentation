@@ -1,0 +1,10 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/pagesMetadata/1.0.0/schema.json",
+  "pageOrder": [
+    "page001funnel",
+    "page002segments",
+    "page003trend",
+    "page004experiment"
+  ],
+  "activePageName": "page001funnel"
+}

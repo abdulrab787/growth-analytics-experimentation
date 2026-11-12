@@ -1,0 +1,5 @@
+expression DataFolder = "C:\ARI\ga4-funnel-ab-planning\powerbi\data\" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 4484c578-645c-4c20-b839-6c70792da4a1
+
+	annotation PBI_ResultType = Text
+

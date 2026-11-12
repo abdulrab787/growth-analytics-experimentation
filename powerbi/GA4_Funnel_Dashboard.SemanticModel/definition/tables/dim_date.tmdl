@@ -1,0 +1,75 @@
+table dim_date
+	lineageTag: 374ea03a-3a0b-4946-a2c4-822b6fd3097d
+	dataCategory: Time
+
+	column Date
+		dataType: dateTime
+		isKey
+		formatString: dd mmm yyyy
+		lineageTag: 7ab653c8-d0b5-406e-8c80-f0668f63a156
+		summarizeBy: none
+		sourceColumn: Date
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Month
+		dataType: string
+		lineageTag: b4173e14-1380-411d-98e0-7c0791ca3c38
+		summarizeBy: none
+		sourceColumn: Month
+		sortByColumn: 'Month Sort'
+
+	column 'Month Sort'
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 9ae6b2d5-86bd-4732-bb18-3601081a47ed
+		summarizeBy: none
+		sourceColumn: Month Sort
+
+	column 'Week Start'
+		dataType: dateTime
+		formatString: dd mmm yyyy
+		lineageTag: b654a322-73ac-4c65-a38f-d2bc835df74e
+		summarizeBy: none
+		sourceColumn: Week Start
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Period
+		dataType: string
+		lineageTag: ec4d6321-2b61-410b-8916-56aa60578915
+		summarizeBy: none
+		sourceColumn: Period
+		sortByColumn: 'Period Sort'
+
+	column 'Period Sort'
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 5ab1e2de-5f66-4f53-b7c9-69ea999008c7
+		summarizeBy: none
+		sourceColumn: Period Sort
+
+	partition dim_date = m
+		mode: import
+		source =
+				let
+				    StartDate = #date(2020, 11, 1),
+				    EndDate = #date(2021, 1, 31),
+				    Dates = List.Dates(StartDate, Duration.Days(EndDate - StartDate) + 1, #duration(1, 0, 0, 0)),
+				    AsTable = Table.FromList(Dates, Splitter.SplitByNothing(), {"Date"}),
+				    Typed = Table.TransformColumnTypes(AsTable, {{"Date", type date}}),
+				    AddMonth = Table.AddColumn(Typed, "Month", each Date.ToText([Date], "MMM yyyy", "en-US"), type text),
+				    AddMonthSort = Table.AddColumn(AddMonth, "Month Sort", each Date.Year([Date]) * 100 + Date.Month([Date]), Int64.Type),
+				    AddWeek = Table.AddColumn(AddMonthSort, "Week Start", each Date.StartOfWeek([Date], Day.Monday), type date),
+				    AddPeriodSort = Table.AddColumn(AddWeek, "Period Sort", each
+				        if [Date] < #date(2020, 11, 23) then 1
+				        else if [Date] <= #date(2020, 12, 18) then 2
+				        else if [Date] <= #date(2021, 1, 17) then 3
+				        else 4, Int64.Type),
+				    AddPeriod = Table.AddColumn(AddPeriodSort, "Period", each
+				        {"Pre-peak (1-22 Nov)", "Peak season (23 Nov-18 Dec)", "Holiday slump (19 Dec-17 Jan)", "Post-holiday (18-31 Jan)"}{[Period Sort] - 1}, type text)
+				in
+				    AddPeriod
+

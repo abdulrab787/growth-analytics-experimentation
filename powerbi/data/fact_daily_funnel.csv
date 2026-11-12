@@ -1,0 +1,1650 @@
+date,device_category,medium,sessions,item_views,add_to_carts,checkouts,purchases
+2020-11-01,desktop,(data deleted),76,17,0,5,1
+2020-11-01,desktop,(none),347,69,0,12,2
+2020-11-01,desktop,<Other>,201,29,0,5,0
+2020-11-01,desktop,cpc,68,12,0,2,0
+2020-11-01,desktop,organic,546,109,0,16,2
+2020-11-01,desktop,referral,290,67,0,18,4
+2020-11-01,mobile,(data deleted),54,12,0,1,0
+2020-11-01,mobile,(none),265,62,0,11,3
+2020-11-01,mobile,<Other>,157,36,0,8,1
+2020-11-01,mobile,cpc,38,8,0,2,0
+2020-11-01,mobile,organic,357,77,0,9,0
+2020-11-01,mobile,referral,176,27,1,6,0
+2020-11-01,tablet,(data deleted),2,1,0,0,0
+2020-11-01,tablet,(none),6,1,0,0,0
+2020-11-01,tablet,<Other>,13,0,0,0,0
+2020-11-01,tablet,cpc,2,1,0,0,0
+2020-11-01,tablet,organic,15,6,0,0,0
+2020-11-01,tablet,referral,12,3,0,0,0
+2020-11-02,desktop,(data deleted),158,35,0,9,5
+2020-11-02,desktop,(none),482,112,0,12,4
+2020-11-02,desktop,<Other>,325,63,0,10,2
+2020-11-02,desktop,cpc,93,23,0,1,1
+2020-11-02,desktop,organic,679,155,0,35,7
+2020-11-02,desktop,referral,418,95,0,15,5
+2020-11-02,mobile,(data deleted),118,23,0,6,2
+2020-11-02,mobile,(none),338,76,0,7,3
+2020-11-02,mobile,<Other>,194,38,0,2,0
+2020-11-02,mobile,cpc,77,19,0,4,1
+2020-11-02,mobile,organic,510,104,0,18,3
+2020-11-02,mobile,referral,263,57,0,9,6
+2020-11-02,tablet,(data deleted),5,0,0,0,0
+2020-11-02,tablet,(none),12,3,0,0,0
+2020-11-02,tablet,<Other>,11,4,0,1,1
+2020-11-02,tablet,cpc,6,3,0,1,0
+2020-11-02,tablet,organic,27,7,0,0,0
+2020-11-02,tablet,referral,10,4,0,0,0
+2020-11-03,desktop,(data deleted),189,41,0,7,6
+2020-11-03,desktop,(none),729,115,0,19,6
+2020-11-03,desktop,<Other>,446,87,0,9,4
+2020-11-03,desktop,cpc,133,29,0,9,2
+2020-11-03,desktop,organic,1069,205,0,23,5
+2020-11-03,desktop,referral,529,112,0,16,6
+2020-11-03,mobile,(data deleted),159,44,0,8,6
+2020-11-03,mobile,(none),497,87,0,15,6
+2020-11-03,mobile,<Other>,278,46,0,6,1
+2020-11-03,mobile,cpc,101,16,0,0,0
+2020-11-03,mobile,organic,728,144,0,23,3
+2020-11-03,mobile,referral,379,63,0,6,3
+2020-11-03,tablet,(data deleted),3,0,0,0,0
+2020-11-03,tablet,(none),25,4,0,1,0
+2020-11-03,tablet,<Other>,20,3,0,0,0
+2020-11-03,tablet,cpc,4,0,0,0,0
+2020-11-03,tablet,organic,38,6,0,1,0
+2020-11-03,tablet,referral,20,8,0,1,0
+2020-11-04,desktop,(data deleted),181,43,0,9,4
+2020-11-04,desktop,(none),584,114,0,15,4
+2020-11-04,desktop,<Other>,394,88,0,16,2
+2020-11-04,desktop,cpc,98,21,0,4,0
+2020-11-04,desktop,organic,819,155,0,21,5
+2020-11-04,desktop,referral,447,73,0,11,4
+2020-11-04,mobile,(data deleted),134,28,0,5,1
+2020-11-04,mobile,(none),361,79,0,8,1
+2020-11-04,mobile,<Other>,225,48,0,3,0
+2020-11-04,mobile,cpc,67,16,0,2,0
+2020-11-04,mobile,organic,583,124,0,14,3
+2020-11-04,mobile,referral,316,68,0,8,3
+2020-11-04,tablet,(data deleted),11,1,0,0,0
+2020-11-04,tablet,(none),18,3,0,0,0
+2020-11-04,tablet,<Other>,12,3,0,0,0
+2020-11-04,tablet,cpc,5,2,0,0,0
+2020-11-04,tablet,organic,43,5,0,0,0
+2020-11-04,tablet,referral,27,8,0,2,1
+2020-11-05,desktop,(data deleted),211,50,0,8,4
+2020-11-05,desktop,(none),489,121,0,12,2
+2020-11-05,desktop,<Other>,271,60,0,8,3
+2020-11-05,desktop,cpc,84,19,0,3,1
+2020-11-05,desktop,organic,717,162,0,20,1
+2020-11-05,desktop,referral,405,94,0,15,5
+2020-11-05,mobile,(data deleted),143,34,0,5,3
+2020-11-05,mobile,(none),351,77,0,13,3
+2020-11-05,mobile,<Other>,195,37,0,8,0
+2020-11-05,mobile,cpc,69,19,0,4,0
+2020-11-05,mobile,organic,528,117,0,12,0
+2020-11-05,mobile,referral,286,61,0,14,3
+2020-11-05,tablet,(data deleted),6,2,0,0,0
+2020-11-05,tablet,(none),22,6,0,1,1
+2020-11-05,tablet,<Other>,14,5,0,1,0
+2020-11-05,tablet,cpc,2,1,0,1,0
+2020-11-05,tablet,organic,29,8,0,1,0
+2020-11-05,tablet,referral,18,5,0,1,0
+2020-11-06,desktop,(data deleted),157,40,0,9,2
+2020-11-06,desktop,(none),427,110,0,16,7
+2020-11-06,desktop,<Other>,232,59,0,12,1
+2020-11-06,desktop,cpc,91,19,0,3,1
+2020-11-06,desktop,organic,642,164,0,28,8
+2020-11-06,desktop,referral,369,95,0,15,8
+2020-11-06,mobile,(data deleted),120,24,0,3,1
+2020-11-06,mobile,(none),313,84,0,14,4
+2020-11-06,mobile,<Other>,170,52,0,11,1
+2020-11-06,mobile,cpc,44,10,0,0,0
+2020-11-06,mobile,organic,433,112,0,26,8
+2020-11-06,mobile,referral,244,64,0,13,4
+2020-11-06,tablet,(data deleted),8,1,0,1,1
+2020-11-06,tablet,(none),20,2,0,0,0
+2020-11-06,tablet,<Other>,12,3,0,2,1
+2020-11-06,tablet,organic,28,11,0,1,1
+2020-11-06,tablet,referral,9,2,0,0,0
+2020-11-07,desktop,(data deleted),83,25,0,2,1
+2020-11-07,desktop,(none),306,71,0,17,4
+2020-11-07,desktop,<Other>,160,43,0,6,1
+2020-11-07,desktop,cpc,60,17,0,2,2
+2020-11-07,desktop,organic,430,99,0,27,5
+2020-11-07,desktop,referral,239,66,0,14,3
+2020-11-07,mobile,(data deleted),60,15,0,2,0
+2020-11-07,mobile,(none),238,62,0,10,2
+2020-11-07,mobile,<Other>,144,37,0,6,2
+2020-11-07,mobile,cpc,44,12,0,1,0
+2020-11-07,mobile,organic,293,86,0,16,6
+2020-11-07,mobile,referral,165,40,0,5,2
+2020-11-07,tablet,(data deleted),5,1,0,1,0
+2020-11-07,tablet,(none),9,4,0,1,0
+2020-11-07,tablet,<Other>,3,0,0,0,0
+2020-11-07,tablet,cpc,2,1,0,0,0
+2020-11-07,tablet,organic,19,8,0,1,0
+2020-11-07,tablet,referral,11,2,0,0,0
+2020-11-08,desktop,(data deleted),86,18,0,4,3
+2020-11-08,desktop,(none),271,57,0,10,2
+2020-11-08,desktop,<Other>,182,46,0,14,2
+2020-11-08,desktop,cpc,57,12,0,0,0
+2020-11-08,desktop,organic,441,99,0,19,4
+2020-11-08,desktop,referral,240,44,0,9,3
+2020-11-08,mobile,(data deleted),56,10,0,0,0
+2020-11-08,mobile,(none),199,44,0,8,3
+2020-11-08,mobile,<Other>,120,30,0,6,3
+2020-11-08,mobile,cpc,32,13,0,0,0
+2020-11-08,mobile,organic,268,64,0,16,5
+2020-11-08,mobile,referral,168,51,0,11,4
+2020-11-08,tablet,(data deleted),5,3,0,2,2
+2020-11-08,tablet,(none),10,3,0,0,0
+2020-11-08,tablet,<Other>,9,1,0,1,0
+2020-11-08,tablet,organic,10,2,0,0,0
+2020-11-08,tablet,referral,9,1,0,0,0
+2020-11-09,desktop,(data deleted),149,30,0,8,3
+2020-11-09,desktop,(none),474,116,0,24,6
+2020-11-09,desktop,<Other>,259,69,0,12,4
+2020-11-09,desktop,cpc,79,19,0,4,0
+2020-11-09,desktop,organic,615,144,0,20,6
+2020-11-09,desktop,referral,328,77,0,12,5
+2020-11-09,mobile,(data deleted),89,15,0,4,3
+2020-11-09,mobile,(none),305,81,0,18,5
+2020-11-09,mobile,<Other>,188,48,0,5,3
+2020-11-09,mobile,cpc,42,8,0,0,0
+2020-11-09,mobile,organic,422,103,0,18,5
+2020-11-09,mobile,referral,228,66,0,10,3
+2020-11-09,tablet,(data deleted),10,0,0,0,0
+2020-11-09,tablet,(none),18,4,0,0,0
+2020-11-09,tablet,<Other>,9,3,0,0,0
+2020-11-09,tablet,cpc,2,0,0,0,0
+2020-11-09,tablet,organic,40,5,0,0,0
+2020-11-09,tablet,referral,14,1,0,0,0
+2020-11-10,desktop,(data deleted),161,37,0,7,2
+2020-11-10,desktop,(none),517,131,0,29,13
+2020-11-10,desktop,<Other>,300,84,0,14,5
+2020-11-10,desktop,cpc,87,26,0,4,0
+2020-11-10,desktop,organic,718,164,0,22,9
+2020-11-10,desktop,referral,414,109,0,19,5
+2020-11-10,mobile,(data deleted),116,26,0,9,6
+2020-11-10,mobile,(none),332,84,0,16,3
+2020-11-10,mobile,<Other>,206,45,0,11,4
+2020-11-10,mobile,cpc,70,17,0,5,2
+2020-11-10,mobile,organic,516,135,0,21,8
+2020-11-10,mobile,referral,318,73,0,15,6
+2020-11-10,tablet,(data deleted),8,1,0,0,0
+2020-11-10,tablet,(none),9,1,0,0,0
+2020-11-10,tablet,<Other>,16,4,0,1,0
+2020-11-10,tablet,cpc,2,0,0,0,0
+2020-11-10,tablet,organic,21,9,0,0,0
+2020-11-10,tablet,referral,13,5,0,0,0
+2020-11-11,desktop,(data deleted),177,48,0,11,4
+2020-11-11,desktop,(none),482,120,0,13,5
+2020-11-11,desktop,<Other>,322,77,0,10,6
+2020-11-11,desktop,cpc,99,23,0,3,2
+2020-11-11,desktop,organic,758,169,0,28,7
+2020-11-11,desktop,referral,389,106,0,26,13
+2020-11-11,mobile,(data deleted),120,38,0,7,5
+2020-11-11,mobile,(none),337,91,0,14,8
+2020-11-11,mobile,<Other>,194,49,0,9,1
+2020-11-11,mobile,cpc,77,16,0,5,1
+2020-11-11,mobile,organic,499,126,0,27,9
+2020-11-11,mobile,referral,261,61,0,7,1
+2020-11-11,tablet,(data deleted),5,1,0,0,0
+2020-11-11,tablet,(none),21,6,0,2,1
+2020-11-11,tablet,<Other>,14,1,0,0,0
+2020-11-11,tablet,cpc,4,1,0,0,0
+2020-11-11,tablet,organic,35,7,0,1,0
+2020-11-11,tablet,referral,15,3,0,0,0
+2020-11-12,desktop,(data deleted),161,35,0,6,3
+2020-11-12,desktop,(none),531,134,0,20,6
+2020-11-12,desktop,<Other>,302,64,0,14,2
+2020-11-12,desktop,cpc,84,19,0,3,0
+2020-11-12,desktop,organic,684,186,0,34,7
+2020-11-12,desktop,referral,400,107,0,20,11
+2020-11-12,mobile,(data deleted),132,37,0,4,1
+2020-11-12,mobile,(none),335,85,0,13,4
+2020-11-12,mobile,<Other>,179,55,0,10,3
+2020-11-12,mobile,cpc,45,8,0,2,1
+2020-11-12,mobile,organic,484,119,0,24,4
+2020-11-12,mobile,referral,293,83,0,19,9
+2020-11-12,tablet,(data deleted),3,3,0,0,0
+2020-11-12,tablet,(none),16,2,0,0,0
+2020-11-12,tablet,<Other>,7,2,0,0,0
+2020-11-12,tablet,cpc,4,0,0,0,0
+2020-11-12,tablet,organic,19,3,0,0,0
+2020-11-12,tablet,referral,14,5,0,0,0
+2020-11-13,desktop,(data deleted),140,34,0,13,8
+2020-11-13,desktop,(none),504,136,0,27,11
+2020-11-13,desktop,<Other>,262,68,0,20,7
+2020-11-13,desktop,cpc,67,11,0,1,0
+2020-11-13,desktop,organic,625,175,0,30,8
+2020-11-13,desktop,referral,350,84,0,24,11
+2020-11-13,mobile,(data deleted),103,31,0,10,8
+2020-11-13,mobile,(none),305,77,0,9,3
+2020-11-13,mobile,<Other>,187,46,0,11,4
+2020-11-13,mobile,cpc,43,7,0,1,0
+2020-11-13,mobile,organic,434,108,0,28,8
+2020-11-13,mobile,referral,231,51,0,6,1
+2020-11-13,tablet,(data deleted),6,1,0,0,0
+2020-11-13,tablet,(none),14,4,0,2,0
+2020-11-13,tablet,<Other>,12,5,0,0,0
+2020-11-13,tablet,cpc,6,1,0,0,0
+2020-11-13,tablet,organic,33,11,0,3,0
+2020-11-13,tablet,referral,16,4,0,1,0
+2020-11-14,desktop,(data deleted),110,29,0,5,3
+2020-11-14,desktop,(none),301,80,0,11,2
+2020-11-14,desktop,<Other>,204,49,0,12,4
+2020-11-14,desktop,cpc,54,10,0,2,0
+2020-11-14,desktop,organic,427,116,0,18,3
+2020-11-14,desktop,referral,259,69,0,16,5
+2020-11-14,mobile,(data deleted),67,14,0,4,2
+2020-11-14,mobile,(none),193,52,0,7,3
+2020-11-14,mobile,<Other>,136,27,0,8,2
+2020-11-14,mobile,cpc,48,9,0,1,0
+2020-11-14,mobile,organic,327,73,0,13,1
+2020-11-14,mobile,referral,179,47,0,7,4
+2020-11-14,tablet,(data deleted),4,0,0,0,0
+2020-11-14,tablet,(none),16,5,0,1,0
+2020-11-14,tablet,<Other>,6,2,0,0,0
+2020-11-14,tablet,cpc,3,0,0,0,0
+2020-11-14,tablet,organic,20,2,0,0,0
+2020-11-14,tablet,referral,6,1,0,1,0
+2020-11-15,desktop,(data deleted),79,17,0,5,2
+2020-11-15,desktop,(none),308,73,0,18,3
+2020-11-15,desktop,<Other>,180,29,0,8,0
+2020-11-15,desktop,cpc,48,10,0,1,1
+2020-11-15,desktop,organic,415,96,0,22,4
+2020-11-15,desktop,referral,243,55,0,13,4
+2020-11-15,mobile,(data deleted),46,11,0,2,1
+2020-11-15,mobile,(none),215,49,0,5,1
+2020-11-15,mobile,<Other>,151,39,0,7,1
+2020-11-15,mobile,cpc,42,9,0,0,0
+2020-11-15,mobile,organic,291,69,0,24,3
+2020-11-15,mobile,referral,149,32,0,4,2
+2020-11-15,tablet,(data deleted),3,1,0,0,0
+2020-11-15,tablet,(none),14,4,0,0,0
+2020-11-15,tablet,<Other>,8,1,0,0,0
+2020-11-15,tablet,organic,14,0,0,0,0
+2020-11-15,tablet,referral,7,2,0,1,1
+2020-11-16,desktop,(data deleted),176,42,3,7,5
+2020-11-16,desktop,(none),433,123,7,29,13
+2020-11-16,desktop,<Other>,299,66,3,11,5
+2020-11-16,desktop,cpc,75,19,0,4,2
+2020-11-16,desktop,organic,669,163,8,20,8
+2020-11-16,desktop,referral,391,92,5,17,3
+2020-11-16,mobile,(data deleted),108,26,0,4,1
+2020-11-16,mobile,(none),346,90,3,13,6
+2020-11-16,mobile,<Other>,212,54,2,11,3
+2020-11-16,mobile,cpc,59,18,0,3,1
+2020-11-16,mobile,organic,440,107,3,23,11
+2020-11-16,mobile,referral,250,58,0,18,6
+2020-11-16,tablet,(data deleted),8,2,0,0,0
+2020-11-16,tablet,(none),17,4,0,2,2
+2020-11-16,tablet,<Other>,9,3,0,2,1
+2020-11-16,tablet,cpc,4,2,0,0,0
+2020-11-16,tablet,organic,22,3,1,1,0
+2020-11-16,tablet,referral,14,3,0,0,0
+2020-11-17,desktop,(data deleted),202,57,11,15,9
+2020-11-17,desktop,(none),513,143,32,23,13
+2020-11-17,desktop,<Other>,310,84,19,12,4
+2020-11-17,desktop,cpc,84,27,4,2,0
+2020-11-17,desktop,organic,767,212,40,23,9
+2020-11-17,desktop,referral,420,103,27,31,15
+2020-11-17,mobile,(data deleted),153,43,12,11,8
+2020-11-17,mobile,(none),393,97,16,18,7
+2020-11-17,mobile,<Other>,218,54,16,11,6
+2020-11-17,mobile,cpc,53,15,1,1,0
+2020-11-17,mobile,organic,531,135,32,33,11
+2020-11-17,mobile,referral,338,88,31,16,3
+2020-11-17,tablet,(data deleted),9,2,0,1,0
+2020-11-17,tablet,(none),18,3,0,2,0
+2020-11-17,tablet,<Other>,10,3,2,0,0
+2020-11-17,tablet,cpc,4,2,0,0,0
+2020-11-17,tablet,organic,23,7,3,1,0
+2020-11-17,tablet,referral,17,3,1,0,0
+2020-11-18,desktop,(data deleted),179,56,10,12,5
+2020-11-18,desktop,(none),566,144,28,23,9
+2020-11-18,desktop,<Other>,307,75,20,12,2
+2020-11-18,desktop,cpc,82,19,2,5,2
+2020-11-18,desktop,organic,793,197,34,15,3
+2020-11-18,desktop,referral,436,107,22,21,5
+2020-11-18,mobile,(data deleted),129,28,5,4,2
+2020-11-18,mobile,(none),389,93,25,22,7
+2020-11-18,mobile,<Other>,205,48,7,6,2
+2020-11-18,mobile,cpc,69,18,6,4,1
+2020-11-18,mobile,organic,561,140,28,23,8
+2020-11-18,mobile,referral,312,84,18,9,4
+2020-11-18,tablet,(data deleted),9,2,0,0,0
+2020-11-18,tablet,(none),21,2,0,0,0
+2020-11-18,tablet,<Other>,11,3,0,0,0
+2020-11-18,tablet,cpc,3,0,0,0,0
+2020-11-18,tablet,organic,34,5,0,0,0
+2020-11-18,tablet,referral,20,7,2,3,0
+2020-11-19,desktop,(data deleted),188,48,3,7,3
+2020-11-19,desktop,(none),597,148,5,14,5
+2020-11-19,desktop,<Other>,329,83,6,11,3
+2020-11-19,desktop,cpc,109,31,0,4,1
+2020-11-19,desktop,organic,816,202,4,20,6
+2020-11-19,desktop,referral,474,126,5,20,10
+2020-11-19,mobile,(data deleted),132,35,0,6,2
+2020-11-19,mobile,(none),365,84,1,13,5
+2020-11-19,mobile,<Other>,214,49,5,5,3
+2020-11-19,mobile,cpc,63,19,0,0,0
+2020-11-19,mobile,organic,499,140,9,16,5
+2020-11-19,mobile,referral,307,68,1,7,4
+2020-11-19,tablet,(data deleted),7,2,0,0,0
+2020-11-19,tablet,(none),23,4,0,1,0
+2020-11-19,tablet,<Other>,16,5,0,0,0
+2020-11-19,tablet,cpc,6,1,0,0,0
+2020-11-19,tablet,organic,27,9,0,2,0
+2020-11-19,tablet,referral,17,9,0,1,0
+2020-11-20,desktop,(data deleted),196,52,0,11,7
+2020-11-20,desktop,(none),562,151,0,16,7
+2020-11-20,desktop,<Other>,293,71,0,8,2
+2020-11-20,desktop,cpc,95,33,0,3,2
+2020-11-20,desktop,organic,774,204,0,26,8
+2020-11-20,desktop,referral,433,111,1,11,4
+2020-11-20,mobile,(data deleted),128,40,0,9,4
+2020-11-20,mobile,(none),403,99,1,21,6
+2020-11-20,mobile,<Other>,214,58,0,7,2
+2020-11-20,mobile,cpc,68,20,0,3,1
+2020-11-20,mobile,organic,568,155,1,29,11
+2020-11-20,mobile,referral,314,83,0,15,8
+2020-11-20,tablet,(data deleted),5,1,0,0,0
+2020-11-20,tablet,(none),20,7,0,2,0
+2020-11-20,tablet,<Other>,7,1,0,0,0
+2020-11-20,tablet,cpc,1,0,0,0,0
+2020-11-20,tablet,organic,33,4,0,0,0
+2020-11-20,tablet,referral,13,4,0,0,0
+2020-11-21,desktop,(data deleted),127,31,0,2,2
+2020-11-21,desktop,(none),436,90,0,12,2
+2020-11-21,desktop,<Other>,269,67,0,14,3
+2020-11-21,desktop,cpc,84,28,0,5,0
+2020-11-21,desktop,organic,614,144,0,25,4
+2020-11-21,desktop,referral,329,92,0,15,7
+2020-11-21,mobile,(data deleted),97,25,0,3,1
+2020-11-21,mobile,(none),273,65,0,10,3
+2020-11-21,mobile,<Other>,177,40,0,4,1
+2020-11-21,mobile,cpc,59,21,0,5,4
+2020-11-21,mobile,organic,444,129,0,16,2
+2020-11-21,mobile,referral,203,59,0,10,3
+2020-11-21,tablet,(data deleted),10,3,0,0,0
+2020-11-21,tablet,(none),16,5,0,2,1
+2020-11-21,tablet,<Other>,10,2,0,1,0
+2020-11-21,tablet,cpc,3,0,0,0,0
+2020-11-21,tablet,organic,28,10,0,1,1
+2020-11-21,tablet,referral,11,3,0,0,0
+2020-11-22,desktop,(data deleted),97,33,0,6,4
+2020-11-22,desktop,(none),364,94,0,13,3
+2020-11-22,desktop,<Other>,232,52,0,5,0
+2020-11-22,desktop,cpc,67,15,0,2,0
+2020-11-22,desktop,organic,567,131,0,24,3
+2020-11-22,desktop,referral,309,70,0,12,4
+2020-11-22,mobile,(data deleted),70,22,0,3,2
+2020-11-22,mobile,(none),255,64,0,12,2
+2020-11-22,mobile,<Other>,131,39,0,5,2
+2020-11-22,mobile,cpc,37,9,0,1,0
+2020-11-22,mobile,organic,322,90,0,20,8
+2020-11-22,mobile,referral,175,41,0,5,1
+2020-11-22,tablet,(data deleted),4,1,0,1,0
+2020-11-22,tablet,(none),13,0,0,0,0
+2020-11-22,tablet,<Other>,7,2,0,0,0
+2020-11-22,tablet,cpc,2,0,0,0,0
+2020-11-22,tablet,organic,21,5,0,0,0
+2020-11-22,tablet,referral,14,2,0,0,0
+2020-11-23,desktop,(data deleted),168,36,0,11,6
+2020-11-23,desktop,(none),557,120,0,20,7
+2020-11-23,desktop,<Other>,300,78,0,10,2
+2020-11-23,desktop,cpc,94,19,0,2,1
+2020-11-23,desktop,organic,784,204,0,32,9
+2020-11-23,desktop,referral,374,97,0,25,8
+2020-11-23,mobile,(data deleted),144,38,0,5,3
+2020-11-23,mobile,(none),373,77,0,13,6
+2020-11-23,mobile,<Other>,218,57,0,13,5
+2020-11-23,mobile,cpc,60,22,0,5,2
+2020-11-23,mobile,organic,515,119,0,16,6
+2020-11-23,mobile,referral,286,58,0,12,5
+2020-11-23,tablet,(data deleted),2,1,0,0,0
+2020-11-23,tablet,(none),22,2,0,0,0
+2020-11-23,tablet,<Other>,11,2,0,0,0
+2020-11-23,tablet,cpc,2,1,0,1,0
+2020-11-23,tablet,organic,33,11,0,4,2
+2020-11-23,tablet,referral,17,10,0,3,2
+2020-11-24,desktop,(data deleted),190,56,0,11,9
+2020-11-24,desktop,(none),579,156,0,32,15
+2020-11-24,desktop,<Other>,322,76,0,20,5
+2020-11-24,desktop,cpc,100,24,0,6,2
+2020-11-24,desktop,organic,893,217,0,41,22
+2020-11-24,desktop,referral,501,129,0,13,5
+2020-11-24,mobile,(data deleted),145,44,0,12,7
+2020-11-24,mobile,(none),389,103,0,18,10
+2020-11-24,mobile,<Other>,227,45,0,8,3
+2020-11-24,mobile,cpc,60,15,0,3,0
+2020-11-24,mobile,organic,576,137,0,19,7
+2020-11-24,mobile,referral,350,104,0,23,11
+2020-11-24,tablet,(data deleted),7,2,0,0,0
+2020-11-24,tablet,(none),21,4,0,0,0
+2020-11-24,tablet,<Other>,7,2,0,1,1
+2020-11-24,tablet,cpc,3,2,0,0,0
+2020-11-24,tablet,organic,28,11,0,3,0
+2020-11-24,tablet,referral,24,2,0,0,0
+2020-11-25,desktop,(data deleted),243,74,8,20,10
+2020-11-25,desktop,(none),617,158,7,28,10
+2020-11-25,desktop,<Other>,350,93,7,16,5
+2020-11-25,desktop,cpc,113,35,1,3,0
+2020-11-25,desktop,organic,897,206,15,34,13
+2020-11-25,desktop,referral,470,121,7,20,11
+2020-11-25,mobile,(data deleted),125,40,6,16,7
+2020-11-25,mobile,(none),410,110,7,17,5
+2020-11-25,mobile,<Other>,261,72,1,11,2
+2020-11-25,mobile,cpc,73,16,1,4,1
+2020-11-25,mobile,organic,578,139,10,28,10
+2020-11-25,mobile,referral,372,97,8,23,10
+2020-11-25,tablet,(data deleted),11,5,0,2,1
+2020-11-25,tablet,(none),14,2,0,0,0
+2020-11-25,tablet,<Other>,13,2,1,0,0
+2020-11-25,tablet,cpc,4,1,0,0,0
+2020-11-25,tablet,organic,33,12,1,3,0
+2020-11-25,tablet,referral,20,6,0,0,0
+2020-11-26,desktop,(data deleted),177,48,14,12,3
+2020-11-26,desktop,(none),527,108,35,20,4
+2020-11-26,desktop,<Other>,359,80,28,12,3
+2020-11-26,desktop,cpc,92,23,7,6,1
+2020-11-26,desktop,organic,790,160,58,39,12
+2020-11-26,desktop,referral,427,90,24,25,6
+2020-11-26,mobile,(data deleted),123,27,10,4,1
+2020-11-26,mobile,(none),447,80,22,20,5
+2020-11-26,mobile,<Other>,238,56,20,8,4
+2020-11-26,mobile,cpc,60,13,5,3,1
+2020-11-26,mobile,organic,577,124,34,24,11
+2020-11-26,mobile,referral,263,61,20,15,4
+2020-11-26,tablet,(data deleted),10,3,1,1,0
+2020-11-26,tablet,(none),17,3,1,2,1
+2020-11-26,tablet,<Other>,12,4,1,0,0
+2020-11-26,tablet,cpc,3,1,0,0,0
+2020-11-26,tablet,organic,34,10,4,0,0
+2020-11-26,tablet,referral,21,5,3,0,0
+2020-11-27,desktop,(data deleted),158,38,17,17,14
+2020-11-27,desktop,(none),519,114,35,23,9
+2020-11-27,desktop,<Other>,353,61,26,18,6
+2020-11-27,desktop,cpc,96,27,13,7,2
+2020-11-27,desktop,organic,760,164,57,31,7
+2020-11-27,desktop,referral,410,104,44,25,14
+2020-11-27,mobile,(data deleted),83,16,7,6,4
+2020-11-27,mobile,(none),382,70,25,18,10
+2020-11-27,mobile,<Other>,232,58,20,8,1
+2020-11-27,mobile,cpc,82,20,8,4,3
+2020-11-27,mobile,organic,527,112,47,15,6
+2020-11-27,mobile,referral,283,63,18,14,8
+2020-11-27,tablet,(data deleted),5,3,2,1,1
+2020-11-27,tablet,(none),23,6,1,0,0
+2020-11-27,tablet,<Other>,17,6,1,0,0
+2020-11-27,tablet,cpc,10,2,0,0,0
+2020-11-27,tablet,organic,27,5,4,4,1
+2020-11-27,tablet,referral,10,5,3,3,3
+2020-11-28,desktop,(data deleted),101,27,13,10,4
+2020-11-28,desktop,(none),503,112,42,23,8
+2020-11-28,desktop,<Other>,308,60,26,14,4
+2020-11-28,desktop,cpc,77,30,8,4,1
+2020-11-28,desktop,organic,643,143,58,31,13
+2020-11-28,desktop,referral,331,71,28,11,5
+2020-11-28,mobile,(data deleted),77,15,7,4,4
+2020-11-28,mobile,(none),306,70,22,14,8
+2020-11-28,mobile,<Other>,189,49,18,9,6
+2020-11-28,mobile,cpc,51,8,4,3,1
+2020-11-28,mobile,organic,482,101,33,18,9
+2020-11-28,mobile,referral,252,57,19,14,9
+2020-11-28,tablet,(data deleted),1,0,0,0,0
+2020-11-28,tablet,(none),13,0,0,0,0
+2020-11-28,tablet,<Other>,10,5,1,2,1
+2020-11-28,tablet,cpc,3,0,0,0,0
+2020-11-28,tablet,organic,24,5,2,1,0
+2020-11-28,tablet,referral,16,2,0,1,1
+2020-11-29,desktop,(data deleted),119,28,13,8,6
+2020-11-29,desktop,(none),426,90,33,14,4
+2020-11-29,desktop,<Other>,276,70,25,12,4
+2020-11-29,desktop,cpc,79,17,5,2,1
+2020-11-29,desktop,organic,608,133,48,22,7
+2020-11-29,desktop,referral,356,84,30,12,6
+2020-11-29,mobile,(data deleted),86,20,9,5,4
+2020-11-29,mobile,(none),311,69,31,12,3
+2020-11-29,mobile,<Other>,210,37,13,8,1
+2020-11-29,mobile,cpc,48,4,1,0,0
+2020-11-29,mobile,organic,467,99,36,21,10
+2020-11-29,mobile,referral,202,42,16,6,2
+2020-11-29,tablet,(data deleted),6,1,0,1,0
+2020-11-29,tablet,(none),16,3,2,2,1
+2020-11-29,tablet,<Other>,9,4,2,1,0
+2020-11-29,tablet,cpc,3,1,1,0,0
+2020-11-29,tablet,organic,20,3,0,0,0
+2020-11-29,tablet,referral,11,3,2,1,1
+2020-11-30,desktop,(data deleted),186,38,20,10,8
+2020-11-30,desktop,(none),578,152,59,33,13
+2020-11-30,desktop,<Other>,395,108,28,18,5
+2020-11-30,desktop,cpc,127,39,15,7,6
+2020-11-30,desktop,organic,915,233,78,42,20
+2020-11-30,desktop,referral,492,138,52,31,18
+2020-11-30,mobile,(data deleted),153,45,23,10,6
+2020-11-30,mobile,(none),391,94,33,20,10
+2020-11-30,mobile,<Other>,232,64,20,11,7
+2020-11-30,mobile,cpc,94,18,8,2,1
+2020-11-30,mobile,organic,596,151,47,29,17
+2020-11-30,mobile,referral,318,90,38,25,14
+2020-11-30,tablet,(data deleted),5,2,0,0,0
+2020-11-30,tablet,(none),20,4,0,1,0
+2020-11-30,tablet,<Other>,12,2,2,1,1
+2020-11-30,tablet,cpc,5,1,0,0,0
+2020-11-30,tablet,organic,49,7,1,1,0
+2020-11-30,tablet,referral,15,5,3,0,0
+2020-12-01,desktop,(data deleted),200,55,19,12,10
+2020-12-01,desktop,(none),655,163,57,31,10
+2020-12-01,desktop,<Other>,382,86,42,21,11
+2020-12-01,desktop,cpc,108,23,7,6,2
+2020-12-01,desktop,organic,969,256,87,45,13
+2020-12-01,desktop,referral,588,138,54,28,12
+2020-12-01,mobile,(data deleted),144,37,18,8,4
+2020-12-01,mobile,(none),449,128,47,24,12
+2020-12-01,mobile,<Other>,289,65,21,12,6
+2020-12-01,mobile,cpc,94,26,12,3,1
+2020-12-01,mobile,organic,667,176,60,19,8
+2020-12-01,mobile,referral,331,81,26,17,9
+2020-12-01,tablet,(data deleted),10,3,1,0,0
+2020-12-01,tablet,(none),24,7,2,1,1
+2020-12-01,tablet,<Other>,14,3,1,1,0
+2020-12-01,tablet,cpc,1,1,0,0,0
+2020-12-01,tablet,organic,34,9,6,3,0
+2020-12-01,tablet,referral,24,6,1,0,0
+2020-12-02,desktop,(data deleted),214,56,16,10,3
+2020-12-02,desktop,(none),654,178,65,31,11
+2020-12-02,desktop,<Other>,392,97,33,16,5
+2020-12-02,desktop,cpc,135,37,10,4,3
+2020-12-02,desktop,organic,921,238,70,35,14
+2020-12-02,desktop,referral,497,124,39,24,9
+2020-12-02,mobile,(data deleted),123,34,14,8,5
+2020-12-02,mobile,(none),404,101,23,12,3
+2020-12-02,mobile,<Other>,236,61,26,17,5
+2020-12-02,mobile,cpc,75,21,9,5,2
+2020-12-02,mobile,organic,679,150,54,31,8
+2020-12-02,mobile,referral,353,84,26,12,5
+2020-12-02,tablet,(data deleted),11,4,1,2,2
+2020-12-02,tablet,(none),25,9,2,1,0
+2020-12-02,tablet,<Other>,17,3,1,0,0
+2020-12-02,tablet,cpc,4,0,0,0,0
+2020-12-02,tablet,organic,45,11,2,0,0
+2020-12-02,tablet,referral,16,2,1,1,1
+2020-12-03,desktop,(data deleted),196,54,17,10,5
+2020-12-03,desktop,(none),705,186,53,34,15
+2020-12-03,desktop,<Other>,415,109,32,18,10
+2020-12-03,desktop,cpc,144,27,8,4,1
+2020-12-03,desktop,organic,1040,257,70,44,18
+2020-12-03,desktop,referral,572,151,43,20,8
+2020-12-03,mobile,(data deleted),135,31,12,4,3
+2020-12-03,mobile,(none),439,110,41,18,5
+2020-12-03,mobile,<Other>,267,75,22,10,1
+2020-12-03,mobile,cpc,80,15,6,6,0
+2020-12-03,mobile,organic,728,192,63,35,7
+2020-12-03,mobile,referral,342,102,23,19,10
+2020-12-03,tablet,(data deleted),10,2,0,0,0
+2020-12-03,tablet,(none),25,4,1,0,0
+2020-12-03,tablet,<Other>,18,7,2,2,1
+2020-12-03,tablet,cpc,5,2,0,0,0
+2020-12-03,tablet,organic,34,12,5,1,1
+2020-12-03,tablet,referral,27,8,5,3,1
+2020-12-04,desktop,(data deleted),177,48,16,6,4
+2020-12-04,desktop,(none),644,164,39,24,7
+2020-12-04,desktop,<Other>,348,89,27,11,3
+2020-12-04,desktop,cpc,126,34,9,5,2
+2020-12-04,desktop,organic,958,243,73,42,19
+2020-12-04,desktop,referral,481,120,44,22,11
+2020-12-04,mobile,(data deleted),164,53,24,8,4
+2020-12-04,mobile,(none),435,100,26,14,4
+2020-12-04,mobile,<Other>,237,60,23,10,2
+2020-12-04,mobile,cpc,73,19,7,2,1
+2020-12-04,mobile,organic,624,150,52,31,16
+2020-12-04,mobile,referral,343,85,36,21,11
+2020-12-04,tablet,(data deleted),6,1,0,0,0
+2020-12-04,tablet,(none),28,7,3,1,1
+2020-12-04,tablet,<Other>,17,4,1,1,1
+2020-12-04,tablet,cpc,5,2,2,0,0
+2020-12-04,tablet,organic,36,6,0,0,0
+2020-12-04,tablet,referral,12,1,1,0,0
+2020-12-05,desktop,(data deleted),113,29,17,11,7
+2020-12-05,desktop,(none),496,114,43,23,10
+2020-12-05,desktop,<Other>,307,74,31,19,3
+2020-12-05,desktop,cpc,108,27,10,4,1
+2020-12-05,desktop,organic,645,146,54,29,13
+2020-12-05,desktop,referral,336,84,32,18,8
+2020-12-05,mobile,(data deleted),81,23,6,4,4
+2020-12-05,mobile,(none),335,73,22,19,8
+2020-12-05,mobile,<Other>,206,51,12,10,4
+2020-12-05,mobile,cpc,62,8,2,1,0
+2020-12-05,mobile,organic,507,108,28,14,8
+2020-12-05,mobile,referral,240,67,28,15,8
+2020-12-05,tablet,(data deleted),2,1,1,1,0
+2020-12-05,tablet,(none),16,5,4,1,0
+2020-12-05,tablet,<Other>,8,2,1,0,0
+2020-12-05,tablet,cpc,6,2,1,0,0
+2020-12-05,tablet,organic,22,7,3,3,2
+2020-12-05,tablet,referral,8,1,0,0,0
+2020-12-06,desktop,(data deleted),122,35,13,6,4
+2020-12-06,desktop,(none),417,99,34,21,5
+2020-12-06,desktop,<Other>,278,57,17,8,1
+2020-12-06,desktop,cpc,80,14,6,1,0
+2020-12-06,desktop,organic,620,138,47,23,6
+2020-12-06,desktop,referral,355,92,31,24,7
+2020-12-06,mobile,(data deleted),90,21,8,6,2
+2020-12-06,mobile,(none),326,67,19,11,3
+2020-12-06,mobile,<Other>,200,48,16,7,2
+2020-12-06,mobile,cpc,69,6,1,0,0
+2020-12-06,mobile,organic,457,115,40,21,5
+2020-12-06,mobile,referral,229,55,20,10,4
+2020-12-06,tablet,(data deleted),3,1,1,1,1
+2020-12-06,tablet,(none),17,6,1,0,0
+2020-12-06,tablet,<Other>,19,5,1,1,1
+2020-12-06,tablet,cpc,2,1,1,0,0
+2020-12-06,tablet,organic,27,4,1,0,0
+2020-12-06,tablet,referral,16,2,1,0,0
+2020-12-07,desktop,(data deleted),242,72,24,20,11
+2020-12-07,desktop,(none),751,173,67,37,15
+2020-12-07,desktop,<Other>,452,98,23,15,6
+2020-12-07,desktop,cpc,136,28,9,7,5
+2020-12-07,desktop,organic,1041,238,65,25,7
+2020-12-07,desktop,referral,564,117,30,20,11
+2020-12-07,mobile,(data deleted),160,31,10,9,5
+2020-12-07,mobile,(none),503,107,36,16,5
+2020-12-07,mobile,<Other>,283,66,22,10,4
+2020-12-07,mobile,cpc,95,21,6,3,1
+2020-12-07,mobile,organic,731,159,44,25,12
+2020-12-07,mobile,referral,391,90,29,14,11
+2020-12-07,tablet,(data deleted),4,0,0,0,0
+2020-12-07,tablet,(none),19,4,1,1,0
+2020-12-07,tablet,<Other>,15,4,2,1,0
+2020-12-07,tablet,cpc,8,0,0,0,0
+2020-12-07,tablet,organic,34,4,2,1,1
+2020-12-07,tablet,referral,22,4,1,0,0
+2020-12-08,desktop,(data deleted),261,72,28,16,7
+2020-12-08,desktop,(none),1029,214,72,44,15
+2020-12-08,desktop,<Other>,657,102,27,17,9
+2020-12-08,desktop,cpc,184,25,13,7,4
+2020-12-08,desktop,organic,1512,273,80,38,12
+2020-12-08,desktop,referral,791,179,53,34,16
+2020-12-08,mobile,(data deleted),193,48,19,13,6
+2020-12-08,mobile,(none),676,131,48,28,12
+2020-12-08,mobile,<Other>,437,76,24,13,2
+2020-12-08,mobile,cpc,142,23,5,2,1
+2020-12-08,mobile,organic,992,173,50,26,9
+2020-12-08,mobile,referral,513,100,34,20,11
+2020-12-08,tablet,(data deleted),13,3,1,0,0
+2020-12-08,tablet,(none),45,9,4,1,0
+2020-12-08,tablet,<Other>,30,3,3,2,1
+2020-12-08,tablet,cpc,7,0,0,0,0
+2020-12-08,tablet,organic,49,8,4,4,1
+2020-12-08,tablet,referral,31,4,2,1,1
+2020-12-09,desktop,(data deleted),237,62,25,15,8
+2020-12-09,desktop,(none),821,164,55,29,18
+2020-12-09,desktop,<Other>,533,91,27,19,10
+2020-12-09,desktop,cpc,132,25,8,3,1
+2020-12-09,desktop,organic,1246,262,89,57,30
+2020-12-09,desktop,referral,683,148,45,33,17
+2020-12-09,mobile,(data deleted),150,42,14,9,5
+2020-12-09,mobile,(none),558,118,43,23,10
+2020-12-09,mobile,<Other>,359,50,14,7,4
+2020-12-09,mobile,cpc,106,11,2,2,1
+2020-12-09,mobile,organic,872,176,54,31,17
+2020-12-09,mobile,referral,427,91,36,22,8
+2020-12-09,tablet,(data deleted),17,1,0,0,0
+2020-12-09,tablet,(none),40,7,4,2,1
+2020-12-09,tablet,<Other>,18,4,3,1,0
+2020-12-09,tablet,cpc,9,1,0,0,0
+2020-12-09,tablet,organic,37,8,1,1,0
+2020-12-09,tablet,referral,37,8,4,4,3
+2020-12-10,desktop,(data deleted),254,84,32,19,14
+2020-12-10,desktop,(none),819,185,71,41,18
+2020-12-10,desktop,<Other>,505,111,32,14,5
+2020-12-10,desktop,cpc,160,30,7,4,1
+2020-12-10,desktop,organic,1128,256,76,45,21
+2020-12-10,desktop,referral,662,180,61,33,17
+2020-12-10,mobile,(data deleted),184,62,21,15,12
+2020-12-10,mobile,(none),521,103,26,18,10
+2020-12-10,mobile,<Other>,333,76,22,13,3
+2020-12-10,mobile,cpc,102,22,5,2,0
+2020-12-10,mobile,organic,767,182,65,36,14
+2020-12-10,mobile,referral,429,102,35,24,13
+2020-12-10,tablet,(data deleted),13,3,0,0,0
+2020-12-10,tablet,(none),32,2,0,0,0
+2020-12-10,tablet,<Other>,12,2,0,1,1
+2020-12-10,tablet,cpc,9,3,1,1,1
+2020-12-10,tablet,organic,39,6,1,0,0
+2020-12-10,tablet,referral,24,4,1,1,0
+2020-12-11,desktop,(data deleted),236,65,27,20,11
+2020-12-11,desktop,(none),756,187,65,34,18
+2020-12-11,desktop,<Other>,472,102,32,15,10
+2020-12-11,desktop,cpc,148,27,10,8,5
+2020-12-11,desktop,organic,1072,239,64,41,25
+2020-12-11,desktop,referral,596,146,46,31,16
+2020-12-11,mobile,(data deleted),147,35,17,9,7
+2020-12-11,mobile,(none),463,110,48,26,13
+2020-12-11,mobile,<Other>,347,74,24,12,2
+2020-12-11,mobile,cpc,107,25,6,3,2
+2020-12-11,mobile,organic,747,166,51,33,19
+2020-12-11,mobile,referral,394,82,29,24,16
+2020-12-11,tablet,(data deleted),9,1,1,0,0
+2020-12-11,tablet,(none),24,4,1,1,1
+2020-12-11,tablet,<Other>,17,4,2,0,0
+2020-12-11,tablet,cpc,6,0,0,0,0
+2020-12-11,tablet,organic,41,9,3,3,0
+2020-12-11,tablet,referral,25,5,3,0,0
+2020-12-12,desktop,(data deleted),133,39,18,16,13
+2020-12-12,desktop,(none),562,142,56,35,19
+2020-12-12,desktop,<Other>,383,65,17,12,6
+2020-12-12,desktop,cpc,105,14,5,1,1
+2020-12-12,desktop,organic,816,167,59,36,19
+2020-12-12,desktop,referral,458,100,28,20,9
+2020-12-12,mobile,(data deleted),73,16,6,6,5
+2020-12-12,mobile,(none),353,87,35,19,8
+2020-12-12,mobile,<Other>,262,43,16,10,4
+2020-12-12,mobile,cpc,86,22,12,6,1
+2020-12-12,mobile,organic,551,108,37,18,8
+2020-12-12,mobile,referral,264,63,23,12,6
+2020-12-12,tablet,(data deleted),3,1,0,0,0
+2020-12-12,tablet,(none),15,2,0,0,0
+2020-12-12,tablet,<Other>,11,2,0,0,0
+2020-12-12,tablet,cpc,4,0,0,0,0
+2020-12-12,tablet,organic,40,7,1,1,1
+2020-12-12,tablet,referral,16,2,0,0,0
+2020-12-13,desktop,(data deleted),107,21,7,4,4
+2020-12-13,desktop,(none),514,101,35,12,5
+2020-12-13,desktop,<Other>,304,62,19,15,7
+2020-12-13,desktop,cpc,95,14,5,3,0
+2020-12-13,desktop,organic,774,152,61,28,12
+2020-12-13,desktop,referral,345,70,22,12,7
+2020-12-13,mobile,(data deleted),64,16,11,5,4
+2020-12-13,mobile,(none),340,61,21,10,5
+2020-12-13,mobile,<Other>,229,46,17,12,5
+2020-12-13,mobile,cpc,68,13,6,3,1
+2020-12-13,mobile,organic,551,105,29,17,8
+2020-12-13,mobile,referral,232,49,20,12,5
+2020-12-13,tablet,(data deleted),2,0,0,0,0
+2020-12-13,tablet,(none),18,4,0,0,0
+2020-12-13,tablet,<Other>,16,1,0,0,0
+2020-12-13,tablet,cpc,3,0,0,0,0
+2020-12-13,tablet,organic,30,4,3,2,0
+2020-12-13,tablet,referral,7,0,0,0,0
+2020-12-14,desktop,(data deleted),167,43,20,6,4
+2020-12-14,desktop,(none),719,149,42,24,8
+2020-12-14,desktop,<Other>,390,70,25,13,6
+2020-12-14,desktop,cpc,128,28,13,5,1
+2020-12-14,desktop,organic,1037,220,70,28,11
+2020-12-14,desktop,referral,500,113,39,19,9
+2020-12-14,mobile,(data deleted),127,34,17,12,9
+2020-12-14,mobile,(none),447,104,37,20,7
+2020-12-14,mobile,<Other>,287,63,23,9,6
+2020-12-14,mobile,cpc,84,13,6,4,1
+2020-12-14,mobile,organic,700,130,49,22,12
+2020-12-14,mobile,referral,381,78,30,22,11
+2020-12-14,tablet,(data deleted),6,0,0,0,0
+2020-12-14,tablet,(none),35,7,3,1,0
+2020-12-14,tablet,<Other>,22,1,0,0,0
+2020-12-14,tablet,cpc,4,0,0,0,0
+2020-12-14,tablet,organic,41,7,3,2,1
+2020-12-14,tablet,referral,23,5,2,0,0
+2020-12-15,desktop,(data deleted),217,50,16,9,5
+2020-12-15,desktop,(none),789,161,46,19,14
+2020-12-15,desktop,<Other>,467,93,30,12,6
+2020-12-15,desktop,cpc,159,28,9,5,3
+2020-12-15,desktop,organic,1110,228,75,37,22
+2020-12-15,desktop,referral,612,155,49,28,20
+2020-12-15,mobile,(data deleted),164,50,26,11,9
+2020-12-15,mobile,(none),488,114,41,22,12
+2020-12-15,mobile,<Other>,327,55,18,8,5
+2020-12-15,mobile,cpc,88,16,2,1,1
+2020-12-15,mobile,organic,765,166,50,28,15
+2020-12-15,mobile,referral,431,101,34,9,6
+2020-12-15,tablet,(data deleted),9,1,0,0,0
+2020-12-15,tablet,(none),34,10,5,3,1
+2020-12-15,tablet,<Other>,20,5,2,0,0
+2020-12-15,tablet,cpc,9,0,0,0,0
+2020-12-15,tablet,organic,36,7,3,1,0
+2020-12-15,tablet,referral,16,4,1,0,0
+2020-12-16,desktop,(data deleted),234,61,23,19,13
+2020-12-16,desktop,(none),747,158,50,25,20
+2020-12-16,desktop,<Other>,430,77,15,6,3
+2020-12-16,desktop,cpc,155,23,7,2,2
+2020-12-16,desktop,organic,1063,242,52,25,13
+2020-12-16,desktop,referral,619,157,48,28,16
+2020-12-16,mobile,(data deleted),132,36,18,13,9
+2020-12-16,mobile,(none),505,107,37,18,12
+2020-12-16,mobile,<Other>,309,48,15,6,3
+2020-12-16,mobile,cpc,80,12,2,1,1
+2020-12-16,mobile,organic,769,150,35,23,13
+2020-12-16,mobile,referral,368,87,25,12,8
+2020-12-16,tablet,(data deleted),4,3,1,1,1
+2020-12-16,tablet,(none),26,6,1,1,0
+2020-12-16,tablet,<Other>,24,5,1,0,0
+2020-12-16,tablet,cpc,8,2,2,2,0
+2020-12-16,tablet,organic,31,3,0,0,0
+2020-12-16,tablet,referral,24,6,2,1,1
+2020-12-17,desktop,(data deleted),202,70,28,17,13
+2020-12-17,desktop,(none),725,155,47,18,9
+2020-12-17,desktop,<Other>,447,82,20,6,1
+2020-12-17,desktop,cpc,149,33,11,6,4
+2020-12-17,desktop,organic,1033,239,61,28,17
+2020-12-17,desktop,referral,544,131,33,16,10
+2020-12-17,mobile,(data deleted),143,41,10,4,2
+2020-12-17,mobile,(none),490,122,29,15,11
+2020-12-17,mobile,<Other>,309,74,12,10,3
+2020-12-17,mobile,cpc,98,21,3,1,1
+2020-12-17,mobile,organic,734,176,55,23,13
+2020-12-17,mobile,referral,373,88,27,11,9
+2020-12-17,tablet,(data deleted),7,3,1,0,0
+2020-12-17,tablet,(none),31,6,2,1,1
+2020-12-17,tablet,<Other>,15,1,1,0,0
+2020-12-17,tablet,cpc,6,1,0,0,0
+2020-12-17,tablet,organic,26,6,1,1,0
+2020-12-17,tablet,referral,13,1,1,0,0
+2020-12-18,desktop,(data deleted),130,42,21,14,9
+2020-12-18,desktop,(none),676,136,46,19,14
+2020-12-18,desktop,<Other>,412,87,23,8,5
+2020-12-18,desktop,cpc,102,18,4,4,2
+2020-12-18,desktop,organic,951,217,45,25,11
+2020-12-18,desktop,referral,489,123,40,17,7
+2020-12-18,mobile,(data deleted),118,38,17,8,4
+2020-12-18,mobile,(none),452,96,26,11,6
+2020-12-18,mobile,<Other>,290,68,18,12,5
+2020-12-18,mobile,cpc,84,9,0,0,0
+2020-12-18,mobile,organic,672,137,45,23,10
+2020-12-18,mobile,referral,338,69,30,8,4
+2020-12-18,tablet,(data deleted),2,0,0,0,0
+2020-12-18,tablet,(none),29,6,2,3,1
+2020-12-18,tablet,<Other>,20,6,3,1,0
+2020-12-18,tablet,cpc,1,0,0,0,0
+2020-12-18,tablet,organic,42,5,0,0,0
+2020-12-18,tablet,referral,16,0,0,0,0
+2020-12-19,desktop,(data deleted),106,27,9,5,3
+2020-12-19,desktop,(none),506,98,24,15,6
+2020-12-19,desktop,<Other>,307,56,15,7,1
+2020-12-19,desktop,cpc,100,26,7,4,2
+2020-12-19,desktop,organic,692,139,33,15,9
+2020-12-19,desktop,referral,320,55,7,5,1
+2020-12-19,mobile,(data deleted),76,19,11,6,4
+2020-12-19,mobile,(none),366,84,22,9,5
+2020-12-19,mobile,<Other>,216,42,10,1,0
+2020-12-19,mobile,cpc,73,10,4,1,0
+2020-12-19,mobile,organic,483,100,27,13,4
+2020-12-19,mobile,referral,270,56,14,8,4
+2020-12-19,tablet,(data deleted),2,1,0,0,0
+2020-12-19,tablet,(none),20,3,1,1,0
+2020-12-19,tablet,<Other>,11,3,0,0,0
+2020-12-19,tablet,cpc,4,1,0,0,0
+2020-12-19,tablet,organic,22,2,0,0,0
+2020-12-19,tablet,referral,13,2,0,0,0
+2020-12-20,desktop,(data deleted),96,20,5,4,0
+2020-12-20,desktop,(none),442,81,22,7,1
+2020-12-20,desktop,<Other>,297,52,11,6,1
+2020-12-20,desktop,cpc,76,6,2,0,0
+2020-12-20,desktop,organic,705,118,28,9,5
+2020-12-20,desktop,referral,333,61,13,8,3
+2020-12-20,mobile,(data deleted),69,18,3,2,2
+2020-12-20,mobile,(none),306,47,6,2,1
+2020-12-20,mobile,<Other>,200,32,6,1,0
+2020-12-20,mobile,cpc,61,8,0,0,0
+2020-12-20,mobile,organic,441,69,16,9,3
+2020-12-20,mobile,referral,198,35,13,4,2
+2020-12-20,tablet,(data deleted),4,2,1,0,0
+2020-12-20,tablet,(none),17,2,0,0,0
+2020-12-20,tablet,<Other>,12,3,1,0,0
+2020-12-20,tablet,cpc,3,0,0,0,0
+2020-12-20,tablet,organic,18,1,0,0,0
+2020-12-20,tablet,referral,10,1,0,0,0
+2020-12-21,desktop,(data deleted),146,40,14,7,2
+2020-12-21,desktop,(none),504,109,29,17,11
+2020-12-21,desktop,<Other>,341,64,8,3,2
+2020-12-21,desktop,cpc,105,15,2,1,1
+2020-12-21,desktop,organic,787,162,40,15,9
+2020-12-21,desktop,referral,432,85,23,8,4
+2020-12-21,mobile,(data deleted),101,26,10,2,1
+2020-12-21,mobile,(none),385,84,18,9,6
+2020-12-21,mobile,<Other>,236,38,8,4,2
+2020-12-21,mobile,cpc,54,6,1,1,1
+2020-12-21,mobile,organic,532,113,24,9,4
+2020-12-21,mobile,referral,283,58,18,7,3
+2020-12-21,tablet,(data deleted),4,0,0,0,0
+2020-12-21,tablet,(none),22,5,2,2,1
+2020-12-21,tablet,<Other>,13,2,0,0,0
+2020-12-21,tablet,cpc,3,1,0,0,0
+2020-12-21,tablet,organic,39,9,2,2,2
+2020-12-21,tablet,referral,19,3,2,2,1
+2020-12-22,desktop,(data deleted),149,39,9,4,4
+2020-12-22,desktop,(none),478,105,28,13,8
+2020-12-22,desktop,<Other>,327,84,24,10,5
+2020-12-22,desktop,cpc,100,25,4,2,0
+2020-12-22,desktop,organic,752,169,33,17,7
+2020-12-22,desktop,referral,373,79,17,10,8
+2020-12-22,mobile,(data deleted),106,38,12,5,3
+2020-12-22,mobile,(none),353,74,20,11,5
+2020-12-22,mobile,<Other>,235,61,16,5,4
+2020-12-22,mobile,cpc,56,15,2,0,0
+2020-12-22,mobile,organic,544,126,29,9,4
+2020-12-22,mobile,referral,280,71,20,6,6
+2020-12-22,tablet,(data deleted),5,1,1,1,1
+2020-12-22,tablet,(none),16,2,0,0,0
+2020-12-22,tablet,<Other>,9,2,0,0,0
+2020-12-22,tablet,cpc,2,1,0,0,0
+2020-12-22,tablet,organic,29,11,2,1,0
+2020-12-22,tablet,referral,24,7,2,2,0
+2020-12-23,desktop,(data deleted),112,39,23,10,5
+2020-12-23,desktop,(none),445,105,29,9,4
+2020-12-23,desktop,<Other>,317,68,21,4,2
+2020-12-23,desktop,cpc,72,11,1,1,1
+2020-12-23,desktop,organic,672,135,36,15,9
+2020-12-23,desktop,referral,336,71,17,6,4
+2020-12-23,mobile,(data deleted),89,19,10,7,6
+2020-12-23,mobile,(none),322,67,18,11,6
+2020-12-23,mobile,<Other>,200,31,4,5,3
+2020-12-23,mobile,cpc,70,18,6,3,0
+2020-12-23,mobile,organic,490,88,24,14,8
+2020-12-23,mobile,referral,249,59,18,7,5
+2020-12-23,tablet,(data deleted),1,0,0,0,0
+2020-12-23,tablet,(none),19,7,1,0,0
+2020-12-23,tablet,<Other>,12,2,0,0,0
+2020-12-23,tablet,cpc,2,0,0,0,0
+2020-12-23,tablet,organic,25,4,1,0,0
+2020-12-23,tablet,referral,10,2,0,0,0
+2020-12-24,desktop,(data deleted),63,16,6,4,4
+2020-12-24,desktop,(none),364,71,15,4,1
+2020-12-24,desktop,<Other>,259,32,4,1,1
+2020-12-24,desktop,cpc,76,14,5,2,2
+2020-12-24,desktop,organic,554,75,10,2,1
+2020-12-24,desktop,referral,268,65,14,3,1
+2020-12-24,mobile,(data deleted),53,11,4,4,2
+2020-12-24,mobile,(none),255,42,6,4,2
+2020-12-24,mobile,<Other>,185,27,4,4,3
+2020-12-24,mobile,cpc,65,7,3,0,0
+2020-12-24,mobile,organic,399,73,18,5,1
+2020-12-24,mobile,referral,193,32,9,4,2
+2020-12-24,tablet,(data deleted),7,1,1,1,1
+2020-12-24,tablet,(none),15,2,0,0,0
+2020-12-24,tablet,<Other>,13,1,0,0,0
+2020-12-24,tablet,cpc,5,2,1,0,0
+2020-12-24,tablet,organic,18,6,1,1,1
+2020-12-24,tablet,referral,6,0,0,0,0
+2020-12-25,desktop,(data deleted),57,12,7,4,1
+2020-12-25,desktop,(none),338,43,7,4,1
+2020-12-25,desktop,<Other>,237,28,6,1,0
+2020-12-25,desktop,cpc,87,12,1,0,0
+2020-12-25,desktop,organic,545,78,13,7,4
+2020-12-25,desktop,referral,286,35,10,4,1
+2020-12-25,mobile,(data deleted),39,12,9,4,2
+2020-12-25,mobile,(none),237,32,5,3,3
+2020-12-25,mobile,<Other>,162,25,6,2,0
+2020-12-25,mobile,cpc,56,4,1,1,1
+2020-12-25,mobile,organic,380,46,4,2,1
+2020-12-25,mobile,referral,163,23,10,3,3
+2020-12-25,tablet,(data deleted),3,0,0,0,0
+2020-12-25,tablet,(none),16,3,0,0,0
+2020-12-25,tablet,<Other>,11,3,0,1,0
+2020-12-25,tablet,cpc,1,0,0,0,0
+2020-12-25,tablet,organic,19,3,1,0,0
+2020-12-25,tablet,referral,8,2,1,0,0
+2020-12-26,desktop,(data deleted),67,13,2,0,0
+2020-12-26,desktop,(none),367,60,11,2,1
+2020-12-26,desktop,<Other>,240,36,10,1,0
+2020-12-26,desktop,cpc,77,8,3,0,0
+2020-12-26,desktop,organic,569,83,15,3,3
+2020-12-26,desktop,referral,234,40,6,2,1
+2020-12-26,mobile,(data deleted),33,8,3,3,2
+2020-12-26,mobile,(none),265,41,7,2,2
+2020-12-26,mobile,<Other>,176,22,3,1,1
+2020-12-26,mobile,cpc,48,2,0,0,0
+2020-12-26,mobile,organic,379,58,9,7,4
+2020-12-26,mobile,referral,165,31,6,4,2
+2020-12-26,tablet,(data deleted),2,1,0,0,0
+2020-12-26,tablet,(none),15,2,0,0,0
+2020-12-26,tablet,<Other>,10,0,0,0,0
+2020-12-26,tablet,cpc,1,0,0,0,0
+2020-12-26,tablet,organic,18,4,0,0,0
+2020-12-26,tablet,referral,10,0,0,0,0
+2020-12-27,desktop,(data deleted),67,18,9,6,3
+2020-12-27,desktop,(none),366,57,12,3,2
+2020-12-27,desktop,<Other>,227,30,6,1,1
+2020-12-27,desktop,cpc,66,8,0,0,0
+2020-12-27,desktop,organic,570,92,14,4,2
+2020-12-27,desktop,referral,256,36,11,5,3
+2020-12-27,mobile,(data deleted),51,14,7,2,1
+2020-12-27,mobile,(none),233,36,11,5,1
+2020-12-27,mobile,<Other>,165,22,3,1,0
+2020-12-27,mobile,cpc,57,6,1,0,0
+2020-12-27,mobile,organic,384,60,18,6,3
+2020-12-27,mobile,referral,176,24,5,5,3
+2020-12-27,tablet,(data deleted),2,0,0,0,0
+2020-12-27,tablet,(none),13,3,1,1,1
+2020-12-27,tablet,<Other>,12,1,0,0,0
+2020-12-27,tablet,cpc,1,0,0,0,0
+2020-12-27,tablet,organic,21,3,0,0,0
+2020-12-27,tablet,referral,10,2,1,0,0
+2020-12-28,desktop,(data deleted),88,20,7,3,3
+2020-12-28,desktop,(none),478,78,27,13,7
+2020-12-28,desktop,<Other>,301,41,8,1,1
+2020-12-28,desktop,cpc,93,15,6,2,1
+2020-12-28,desktop,organic,682,111,28,13,8
+2020-12-28,desktop,referral,323,46,6,0,0
+2020-12-28,mobile,(data deleted),77,18,6,3,3
+2020-12-28,mobile,(none),296,40,7,3,1
+2020-12-28,mobile,<Other>,182,27,3,1,1
+2020-12-28,mobile,cpc,54,6,2,0,0
+2020-12-28,mobile,organic,469,89,16,5,4
+2020-12-28,mobile,referral,235,41,12,3,3
+2020-12-28,tablet,(data deleted),3,0,0,0,0
+2020-12-28,tablet,(none),13,1,1,1,1
+2020-12-28,tablet,<Other>,11,1,0,0,0
+2020-12-28,tablet,cpc,5,0,0,0,0
+2020-12-28,tablet,organic,32,3,0,0,0
+2020-12-28,tablet,referral,14,1,0,0,0
+2020-12-29,desktop,(data deleted),97,24,4,3,1
+2020-12-29,desktop,(none),478,83,22,10,5
+2020-12-29,desktop,<Other>,311,42,12,4,3
+2020-12-29,desktop,cpc,89,15,1,0,0
+2020-12-29,desktop,organic,689,86,16,2,1
+2020-12-29,desktop,referral,312,52,18,8,3
+2020-12-29,mobile,(data deleted),78,18,7,2,1
+2020-12-29,mobile,(none),334,42,7,2,1
+2020-12-29,mobile,<Other>,202,23,5,2,1
+2020-12-29,mobile,cpc,63,14,2,0,0
+2020-12-29,mobile,organic,483,77,17,6,3
+2020-12-29,mobile,referral,211,34,11,2,1
+2020-12-29,tablet,(data deleted),1,0,0,0,0
+2020-12-29,tablet,(none),16,2,0,0,0
+2020-12-29,tablet,<Other>,13,1,1,0,0
+2020-12-29,tablet,cpc,4,2,0,0,0
+2020-12-29,tablet,organic,34,11,2,1,1
+2020-12-29,tablet,referral,20,5,2,0,0
+2020-12-30,desktop,(data deleted),82,20,6,3,3
+2020-12-30,desktop,(none),438,54,9,2,1
+2020-12-30,desktop,<Other>,273,48,7,2,1
+2020-12-30,desktop,cpc,85,17,2,0,0
+2020-12-30,desktop,organic,629,91,15,7,2
+2020-12-30,desktop,referral,368,54,15,5,3
+2020-12-30,mobile,(data deleted),55,18,9,3,2
+2020-12-30,mobile,(none),303,51,14,4,2
+2020-12-30,mobile,<Other>,176,26,3,2,1
+2020-12-30,mobile,cpc,44,3,1,0,0
+2020-12-30,mobile,organic,460,70,23,6,4
+2020-12-30,mobile,referral,220,45,6,3,1
+2020-12-30,tablet,(data deleted),6,3,0,0,0
+2020-12-30,tablet,(none),14,1,0,0,0
+2020-12-30,tablet,<Other>,13,3,1,0,0
+2020-12-30,tablet,cpc,6,2,0,0,0
+2020-12-30,tablet,organic,34,5,2,1,1
+2020-12-30,tablet,referral,7,2,0,0,0
+2020-12-31,desktop,(data deleted),64,10,5,6,3
+2020-12-31,desktop,(none),349,56,8,2,1
+2020-12-31,desktop,<Other>,221,32,9,5,1
+2020-12-31,desktop,cpc,70,12,4,2,1
+2020-12-31,desktop,organic,558,76,13,7,3
+2020-12-31,desktop,referral,253,42,17,7,5
+2020-12-31,mobile,(data deleted),56,14,4,0,0
+2020-12-31,mobile,(none),248,32,9,3,1
+2020-12-31,mobile,<Other>,158,18,1,2,1
+2020-12-31,mobile,cpc,42,6,2,0,0
+2020-12-31,mobile,organic,372,50,12,4,2
+2020-12-31,mobile,referral,147,23,7,4,3
+2020-12-31,tablet,(data deleted),3,1,1,1,1
+2020-12-31,tablet,(none),19,3,0,0,0
+2020-12-31,tablet,<Other>,12,2,0,0,0
+2020-12-31,tablet,cpc,6,0,0,0,0
+2020-12-31,tablet,organic,29,5,2,0,0
+2020-12-31,tablet,referral,12,1,0,0,0
+2021-01-01,desktop,(data deleted),53,10,1,1,1
+2021-01-01,desktop,(none),336,55,15,3,1
+2021-01-01,desktop,<Other>,214,23,3,3,0
+2021-01-01,desktop,cpc,64,6,1,0,0
+2021-01-01,desktop,organic,490,63,11,3,2
+2021-01-01,desktop,referral,202,31,4,0,0
+2021-01-01,mobile,(data deleted),37,8,4,1,1
+2021-01-01,mobile,(none),221,36,9,5,4
+2021-01-01,mobile,<Other>,153,20,4,3,0
+2021-01-01,mobile,cpc,38,1,0,0,0
+2021-01-01,mobile,organic,314,39,10,5,1
+2021-01-01,mobile,referral,135,21,5,1,1
+2021-01-01,tablet,(none),13,2,0,0,0
+2021-01-01,tablet,<Other>,13,2,0,0,0
+2021-01-01,tablet,cpc,2,1,1,1,1
+2021-01-01,tablet,organic,9,1,0,0,0
+2021-01-01,tablet,referral,14,2,0,0,0
+2021-01-02,desktop,(data deleted),68,18,4,5,1
+2021-01-02,desktop,(none),396,61,8,3,1
+2021-01-02,desktop,<Other>,257,46,12,4,1
+2021-01-02,desktop,cpc,94,9,0,0,0
+2021-01-02,desktop,organic,589,85,8,6,3
+2021-01-02,desktop,referral,256,29,6,1,0
+2021-01-02,mobile,(data deleted),34,5,0,0,0
+2021-01-02,mobile,(none),233,33,7,2,1
+2021-01-02,mobile,<Other>,162,26,5,2,1
+2021-01-02,mobile,cpc,43,6,1,0,0
+2021-01-02,mobile,organic,360,55,9,4,2
+2021-01-02,mobile,referral,172,19,3,3,3
+2021-01-02,tablet,(none),11,1,0,0,0
+2021-01-02,tablet,<Other>,10,3,0,0,0
+2021-01-02,tablet,cpc,10,0,0,0,0
+2021-01-02,tablet,organic,24,7,2,2,1
+2021-01-02,tablet,referral,9,2,0,0,0
+2021-01-03,desktop,(data deleted),69,11,6,2,2
+2021-01-03,desktop,(none),385,50,8,3,1
+2021-01-03,desktop,<Other>,288,47,9,6,2
+2021-01-03,desktop,cpc,60,9,0,2,1
+2021-01-03,desktop,organic,582,86,8,4,0
+2021-01-03,desktop,referral,262,38,4,3,2
+2021-01-03,mobile,(data deleted),38,9,2,2,1
+2021-01-03,mobile,(none),242,42,2,2,1
+2021-01-03,mobile,<Other>,184,27,3,2,2
+2021-01-03,mobile,cpc,48,8,1,0,0
+2021-01-03,mobile,organic,389,57,9,3,1
+2021-01-03,mobile,referral,191,29,5,3,2
+2021-01-03,tablet,(none),12,2,1,0,0
+2021-01-03,tablet,<Other>,7,2,1,0,0
+2021-01-03,tablet,cpc,1,0,0,0,0
+2021-01-03,tablet,organic,21,3,0,0,0
+2021-01-03,tablet,referral,6,0,0,0,0
+2021-01-04,desktop,(data deleted),99,17,6,2,2
+2021-01-04,desktop,(none),486,88,9,4,2
+2021-01-04,desktop,<Other>,284,34,4,1,0
+2021-01-04,desktop,cpc,100,19,1,0,0
+2021-01-04,desktop,organic,684,100,24,7,3
+2021-01-04,desktop,referral,326,37,10,3,1
+2021-01-04,mobile,(data deleted),59,13,2,2,1
+2021-01-04,mobile,(none),287,38,7,2,1
+2021-01-04,mobile,<Other>,215,30,7,3,1
+2021-01-04,mobile,cpc,63,11,1,1,1
+2021-01-04,mobile,organic,461,77,17,4,2
+2021-01-04,mobile,referral,223,42,9,0,0
+2021-01-04,tablet,(data deleted),3,0,0,0,0
+2021-01-04,tablet,(none),23,3,1,1,1
+2021-01-04,tablet,<Other>,15,4,0,0,0
+2021-01-04,tablet,cpc,1,1,0,0,0
+2021-01-04,tablet,organic,26,6,1,0,0
+2021-01-04,tablet,referral,12,5,2,0,0
+2021-01-05,desktop,(data deleted),118,23,6,2,2
+2021-01-05,desktop,(none),577,97,15,5,3
+2021-01-05,desktop,<Other>,386,54,13,2,1
+2021-01-05,desktop,cpc,116,21,4,0,0
+2021-01-05,desktop,organic,911,151,30,14,9
+2021-01-05,desktop,referral,425,69,26,13,3
+2021-01-05,mobile,(data deleted),71,15,3,3,3
+2021-01-05,mobile,(none),437,63,13,2,1
+2021-01-05,mobile,<Other>,265,32,5,1,0
+2021-01-05,mobile,cpc,76,13,5,2,1
+2021-01-05,mobile,organic,685,92,20,6,4
+2021-01-05,mobile,referral,315,54,11,4,1
+2021-01-05,tablet,(data deleted),4,1,0,0,0
+2021-01-05,tablet,(none),21,2,0,0,0
+2021-01-05,tablet,<Other>,18,2,1,0,0
+2021-01-05,tablet,cpc,5,0,0,0,0
+2021-01-05,tablet,organic,35,5,0,0,0
+2021-01-05,tablet,referral,20,7,0,0,0
+2021-01-06,desktop,(data deleted),179,31,9,6,1
+2021-01-06,desktop,(none),821,117,25,10,5
+2021-01-06,desktop,<Other>,521,65,14,5,2
+2021-01-06,desktop,cpc,157,21,7,1,1
+2021-01-06,desktop,organic,1251,165,40,14,3
+2021-01-06,desktop,referral,607,84,24,6,3
+2021-01-06,mobile,(data deleted),101,21,7,2,1
+2021-01-06,mobile,(none),555,65,12,4,3
+2021-01-06,mobile,<Other>,358,51,11,2,1
+2021-01-06,mobile,cpc,101,13,2,0,0
+2021-01-06,mobile,organic,840,102,19,6,2
+2021-01-06,mobile,referral,380,53,9,6,4
+2021-01-06,tablet,(data deleted),6,2,1,1,1
+2021-01-06,tablet,(none),40,5,0,0,0
+2021-01-06,tablet,<Other>,25,2,1,0,0
+2021-01-06,tablet,cpc,3,1,1,1,0
+2021-01-06,tablet,organic,37,3,1,0,0
+2021-01-06,tablet,referral,13,1,0,1,0
+2021-01-07,desktop,(data deleted),159,41,9,6,4
+2021-01-07,desktop,(none),619,112,20,6,5
+2021-01-07,desktop,<Other>,387,45,17,3,1
+2021-01-07,desktop,cpc,118,13,1,0,0
+2021-01-07,desktop,organic,1003,168,37,12,7
+2021-01-07,desktop,referral,406,72,19,5,1
+2021-01-07,mobile,(data deleted),96,22,8,5,1
+2021-01-07,mobile,(none),418,66,21,7,2
+2021-01-07,mobile,<Other>,275,36,6,2,0
+2021-01-07,mobile,cpc,83,13,5,0,0
+2021-01-07,mobile,organic,650,104,16,10,5
+2021-01-07,mobile,referral,322,47,12,4,0
+2021-01-07,tablet,(data deleted),6,2,0,0,0
+2021-01-07,tablet,(none),34,8,2,0,0
+2021-01-07,tablet,<Other>,19,5,1,0,0
+2021-01-07,tablet,cpc,6,4,0,1,0
+2021-01-07,tablet,organic,36,5,1,1,0
+2021-01-07,tablet,referral,23,5,0,0,0
+2021-01-08,desktop,(data deleted),135,33,11,2,0
+2021-01-08,desktop,(none),568,82,20,12,9
+2021-01-08,desktop,<Other>,379,55,11,5,4
+2021-01-08,desktop,cpc,111,21,5,3,3
+2021-01-08,desktop,organic,834,134,29,7,3
+2021-01-08,desktop,referral,422,70,19,10,2
+2021-01-08,mobile,(data deleted),87,21,6,4,2
+2021-01-08,mobile,(none),419,56,17,6,4
+2021-01-08,mobile,<Other>,230,27,5,2,1
+2021-01-08,mobile,cpc,66,14,3,0,0
+2021-01-08,mobile,organic,613,90,14,4,1
+2021-01-08,mobile,referral,284,51,13,4,3
+2021-01-08,tablet,(data deleted),8,3,1,1,0
+2021-01-08,tablet,(none),28,3,1,1,0
+2021-01-08,tablet,<Other>,12,3,0,0,0
+2021-01-08,tablet,cpc,6,0,0,0,0
+2021-01-08,tablet,organic,37,5,1,1,1
+2021-01-08,tablet,referral,23,3,0,0,0
+2021-01-09,desktop,(data deleted),86,19,6,1,1
+2021-01-09,desktop,(none),430,68,16,6,1
+2021-01-09,desktop,<Other>,268,44,11,4,1
+2021-01-09,desktop,cpc,77,15,3,1,1
+2021-01-09,desktop,organic,679,117,14,5,3
+2021-01-09,desktop,referral,318,53,9,6,2
+2021-01-09,mobile,(data deleted),62,11,5,2,2
+2021-01-09,mobile,(none),315,49,11,2,1
+2021-01-09,mobile,<Other>,203,27,6,1,0
+2021-01-09,mobile,cpc,55,7,1,1,0
+2021-01-09,mobile,organic,475,57,15,3,1
+2021-01-09,mobile,referral,225,42,10,7,5
+2021-01-09,tablet,(data deleted),2,0,0,0,0
+2021-01-09,tablet,(none),16,3,1,0,0
+2021-01-09,tablet,<Other>,15,1,0,0,0
+2021-01-09,tablet,cpc,3,0,0,0,0
+2021-01-09,tablet,organic,19,5,1,0,0
+2021-01-09,tablet,referral,10,2,0,0,0
+2021-01-10,desktop,(data deleted),74,13,4,1,1
+2021-01-10,desktop,(none),399,54,8,4,3
+2021-01-10,desktop,<Other>,249,45,11,4,1
+2021-01-10,desktop,cpc,91,12,1,0,0
+2021-01-10,desktop,organic,618,80,10,4,1
+2021-01-10,desktop,referral,256,41,12,7,3
+2021-01-10,mobile,(data deleted),60,10,1,1,0
+2021-01-10,mobile,(none),294,46,8,3,2
+2021-01-10,mobile,<Other>,223,30,4,3,2
+2021-01-10,mobile,cpc,55,9,0,0,0
+2021-01-10,mobile,organic,432,61,13,4,2
+2021-01-10,mobile,referral,187,33,7,1,0
+2021-01-10,tablet,(data deleted),1,0,0,0,0
+2021-01-10,tablet,(none),11,3,0,0,0
+2021-01-10,tablet,<Other>,12,1,0,0,0
+2021-01-10,tablet,cpc,7,2,1,0,0
+2021-01-10,tablet,organic,25,8,3,1,0
+2021-01-10,tablet,referral,8,1,1,0,0
+2021-01-11,desktop,(data deleted),121,21,5,2,0
+2021-01-11,desktop,(none),514,85,19,9,5
+2021-01-11,desktop,<Other>,368,67,11,7,2
+2021-01-11,desktop,cpc,86,19,4,3,2
+2021-01-11,desktop,organic,793,112,29,9,5
+2021-01-11,desktop,referral,357,76,21,6,4
+2021-01-11,mobile,(data deleted),85,13,6,3,2
+2021-01-11,mobile,(none),368,63,13,3,3
+2021-01-11,mobile,<Other>,246,51,13,2,0
+2021-01-11,mobile,cpc,72,12,2,1,0
+2021-01-11,mobile,organic,567,96,23,5,1
+2021-01-11,mobile,referral,282,53,13,4,1
+2021-01-11,tablet,(data deleted),6,1,0,0,0
+2021-01-11,tablet,(none),20,2,0,0,0
+2021-01-11,tablet,<Other>,13,4,2,2,1
+2021-01-11,tablet,cpc,5,0,0,0,0
+2021-01-11,tablet,organic,34,6,0,0,0
+2021-01-11,tablet,referral,16,2,0,0,0
+2021-01-12,desktop,(data deleted),158,31,6,6,4
+2021-01-12,desktop,(none),624,117,21,9,6
+2021-01-12,desktop,<Other>,420,66,16,7,5
+2021-01-12,desktop,cpc,113,17,1,1,0
+2021-01-12,desktop,organic,924,175,40,15,5
+2021-01-12,desktop,referral,445,91,23,7,5
+2021-01-12,mobile,(data deleted),105,24,6,4,1
+2021-01-12,mobile,(none),439,66,12,7,6
+2021-01-12,mobile,<Other>,288,46,8,3,1
+2021-01-12,mobile,cpc,85,12,1,1,1
+2021-01-12,mobile,organic,669,116,21,12,5
+2021-01-12,mobile,referral,348,66,10,4,2
+2021-01-12,tablet,(data deleted),5,1,0,0,0
+2021-01-12,tablet,(none),27,6,2,0,0
+2021-01-12,tablet,<Other>,15,3,0,0,0
+2021-01-12,tablet,cpc,4,0,0,0,0
+2021-01-12,tablet,organic,32,5,1,1,1
+2021-01-12,tablet,referral,20,4,2,2,1
+2021-01-13,desktop,(data deleted),140,37,10,6,5
+2021-01-13,desktop,(none),628,93,21,5,2
+2021-01-13,desktop,<Other>,387,70,15,6,2
+2021-01-13,desktop,cpc,135,25,6,2,2
+2021-01-13,desktop,organic,884,153,38,17,4
+2021-01-13,desktop,referral,446,77,18,11,5
+2021-01-13,mobile,(data deleted),107,22,10,7,3
+2021-01-13,mobile,(none),447,72,17,6,3
+2021-01-13,mobile,<Other>,289,42,7,3,2
+2021-01-13,mobile,cpc,77,12,0,0,0
+2021-01-13,mobile,organic,636,99,27,17,4
+2021-01-13,mobile,referral,306,61,9,5,3
+2021-01-13,tablet,(data deleted),8,1,0,0,0
+2021-01-13,tablet,(none),25,3,1,0,0
+2021-01-13,tablet,<Other>,11,1,0,0,0
+2021-01-13,tablet,cpc,5,0,0,0,0
+2021-01-13,tablet,organic,25,2,0,0,0
+2021-01-13,tablet,referral,14,2,0,0,0
+2021-01-14,desktop,(data deleted),131,40,11,7,4
+2021-01-14,desktop,(none),605,117,33,12,6
+2021-01-14,desktop,<Other>,370,64,13,3,3
+2021-01-14,desktop,cpc,108,22,7,0,0
+2021-01-14,desktop,organic,897,164,32,14,5
+2021-01-14,desktop,referral,410,99,26,10,8
+2021-01-14,mobile,(data deleted),99,21,4,2,1
+2021-01-14,mobile,(none),419,76,19,10,3
+2021-01-14,mobile,<Other>,245,38,5,3,2
+2021-01-14,mobile,cpc,77,10,1,0,0
+2021-01-14,mobile,organic,576,103,27,11,8
+2021-01-14,mobile,referral,324,68,20,11,7
+2021-01-14,tablet,(data deleted),10,1,1,0,0
+2021-01-14,tablet,(none),23,8,0,0,0
+2021-01-14,tablet,<Other>,12,3,1,0,0
+2021-01-14,tablet,cpc,3,0,0,0,0
+2021-01-14,tablet,organic,36,8,3,0,0
+2021-01-14,tablet,referral,18,4,0,0,0
+2021-01-15,desktop,(data deleted),125,25,11,4,3
+2021-01-15,desktop,(none),577,102,20,8,5
+2021-01-15,desktop,<Other>,330,48,13,6,2
+2021-01-15,desktop,cpc,92,20,5,1,0
+2021-01-15,desktop,organic,777,132,27,13,6
+2021-01-15,desktop,referral,377,72,16,4,3
+2021-01-15,mobile,(data deleted),79,15,1,0,0
+2021-01-15,mobile,(none),352,62,15,8,5
+2021-01-15,mobile,<Other>,252,45,5,2,1
+2021-01-15,mobile,cpc,65,10,3,1,1
+2021-01-15,mobile,organic,556,113,30,14,9
+2021-01-15,mobile,referral,269,52,18,6,1
+2021-01-15,tablet,(data deleted),2,1,0,0,0
+2021-01-15,tablet,(none),20,5,0,1,0
+2021-01-15,tablet,<Other>,13,3,1,1,1
+2021-01-15,tablet,cpc,3,1,0,0,0
+2021-01-15,tablet,organic,32,8,0,0,0
+2021-01-15,tablet,referral,14,2,1,1,1
+2021-01-16,desktop,(data deleted),88,21,6,4,1
+2021-01-16,desktop,(none),440,77,22,11,2
+2021-01-16,desktop,<Other>,258,38,9,1,1
+2021-01-16,desktop,cpc,67,12,3,2,1
+2021-01-16,desktop,organic,613,94,19,8,3
+2021-01-16,desktop,referral,317,49,9,4,3
+2021-01-16,mobile,(data deleted),52,19,7,3,2
+2021-01-16,mobile,(none),316,53,11,4,2
+2021-01-16,mobile,<Other>,210,33,9,1,1
+2021-01-16,mobile,cpc,46,8,3,0,0
+2021-01-16,mobile,organic,460,74,14,9,6
+2021-01-16,mobile,referral,224,42,7,4,2
+2021-01-16,tablet,(data deleted),2,0,0,0,0
+2021-01-16,tablet,(none),18,5,0,0,0
+2021-01-16,tablet,<Other>,18,2,1,0,0
+2021-01-16,tablet,cpc,4,0,0,0,0
+2021-01-16,tablet,organic,29,3,0,0,0
+2021-01-16,tablet,referral,15,2,0,0,0
+2021-01-17,desktop,(data deleted),94,13,5,4,1
+2021-01-17,desktop,(none),416,69,10,7,0
+2021-01-17,desktop,<Other>,255,38,5,3,2
+2021-01-17,desktop,cpc,70,5,1,0,0
+2021-01-17,desktop,organic,655,95,12,9,5
+2021-01-17,desktop,referral,295,42,13,5,2
+2021-01-17,mobile,(data deleted),54,5,2,1,1
+2021-01-17,mobile,(none),261,36,6,0,0
+2021-01-17,mobile,<Other>,181,23,8,3,1
+2021-01-17,mobile,cpc,53,7,2,0,0
+2021-01-17,mobile,organic,411,73,16,2,1
+2021-01-17,mobile,referral,181,33,6,1,1
+2021-01-17,tablet,(none),14,3,0,0,0
+2021-01-17,tablet,<Other>,5,1,0,0,0
+2021-01-17,tablet,cpc,6,1,0,0,0
+2021-01-17,tablet,organic,26,9,3,0,0
+2021-01-17,tablet,referral,11,2,1,0,0
+2021-01-18,desktop,(data deleted),122,26,10,4,1
+2021-01-18,desktop,(none),470,67,16,4,1
+2021-01-18,desktop,<Other>,330,48,8,1,1
+2021-01-18,desktop,cpc,96,8,0,1,0
+2021-01-18,desktop,organic,759,100,20,10,3
+2021-01-18,desktop,referral,332,56,9,3,2
+2021-01-18,mobile,(data deleted),63,8,2,1,0
+2021-01-18,mobile,(none),325,40,7,5,2
+2021-01-18,mobile,<Other>,229,38,9,3,2
+2021-01-18,mobile,cpc,57,13,4,2,0
+2021-01-18,mobile,organic,500,62,16,6,4
+2021-01-18,mobile,referral,254,41,9,7,2
+2021-01-18,tablet,(data deleted),4,1,1,0,0
+2021-01-18,tablet,(none),23,3,0,0,0
+2021-01-18,tablet,<Other>,11,2,0,0,0
+2021-01-18,tablet,cpc,4,0,0,0,0
+2021-01-18,tablet,organic,20,2,1,0,0
+2021-01-18,tablet,referral,11,2,0,0,0
+2021-01-19,desktop,(data deleted),122,28,9,6,4
+2021-01-19,desktop,(none),550,99,26,14,8
+2021-01-19,desktop,<Other>,341,59,5,3,2
+2021-01-19,desktop,cpc,112,18,2,0,0
+2021-01-19,desktop,organic,865,170,34,19,7
+2021-01-19,desktop,referral,415,88,19,6,3
+2021-01-19,mobile,(data deleted),102,33,12,6,3
+2021-01-19,mobile,(none),382,66,19,8,5
+2021-01-19,mobile,<Other>,248,52,11,2,1
+2021-01-19,mobile,cpc,63,9,0,0,0
+2021-01-19,mobile,organic,560,126,24,12,6
+2021-01-19,mobile,referral,326,61,11,5,4
+2021-01-19,tablet,(data deleted),8,3,1,1,1
+2021-01-19,tablet,(none),23,3,0,0,0
+2021-01-19,tablet,<Other>,15,2,0,0,0
+2021-01-19,tablet,cpc,2,0,0,0,0
+2021-01-19,tablet,organic,36,14,3,1,1
+2021-01-19,tablet,referral,17,7,3,2,2
+2021-01-20,desktop,(data deleted),169,43,14,9,6
+2021-01-20,desktop,(none),654,143,27,16,9
+2021-01-20,desktop,<Other>,432,98,24,13,10
+2021-01-20,desktop,cpc,114,25,2,1,1
+2021-01-20,desktop,organic,949,250,52,29,18
+2021-01-20,desktop,referral,476,131,29,17,12
+2021-01-20,mobile,(data deleted),126,37,8,8,6
+2021-01-20,mobile,(none),439,108,24,14,9
+2021-01-20,mobile,<Other>,267,74,10,8,6
+2021-01-20,mobile,cpc,79,15,2,2,1
+2021-01-20,mobile,organic,658,158,28,11,7
+2021-01-20,mobile,referral,344,88,21,12,9
+2021-01-20,tablet,(data deleted),5,1,0,0,0
+2021-01-20,tablet,(none),24,6,0,1,0
+2021-01-20,tablet,<Other>,10,6,0,0,0
+2021-01-20,tablet,cpc,6,0,0,0,0
+2021-01-20,tablet,organic,40,6,2,2,1
+2021-01-20,tablet,referral,13,4,0,0,0
+2021-01-21,desktop,(data deleted),155,48,9,7,4
+2021-01-21,desktop,(none),618,192,42,14,6
+2021-01-21,desktop,<Other>,407,133,18,9,2
+2021-01-21,desktop,cpc,135,40,1,0,0
+2021-01-21,desktop,organic,899,257,33,17,11
+2021-01-21,desktop,referral,479,153,37,22,11
+2021-01-21,mobile,(data deleted),116,37,13,8,4
+2021-01-21,mobile,(none),417,122,17,5,3
+2021-01-21,mobile,<Other>,268,80,3,3,0
+2021-01-21,mobile,cpc,87,27,5,1,1
+2021-01-21,mobile,organic,662,199,21,11,5
+2021-01-21,mobile,referral,329,95,14,7,2
+2021-01-21,tablet,(data deleted),5,2,1,1,0
+2021-01-21,tablet,(none),28,6,1,0,0
+2021-01-21,tablet,<Other>,17,2,1,0,0
+2021-01-21,tablet,cpc,3,1,0,0,0
+2021-01-21,tablet,organic,41,10,2,1,0
+2021-01-21,tablet,referral,21,5,0,1,1
+2021-01-22,desktop,(data deleted),154,46,10,10,7
+2021-01-22,desktop,(none),556,156,27,17,7
+2021-01-22,desktop,<Other>,339,99,17,6,3
+2021-01-22,desktop,cpc,123,39,10,9,7
+2021-01-22,desktop,organic,823,242,43,34,17
+2021-01-22,desktop,referral,429,112,21,17,10
+2021-01-22,mobile,(data deleted),87,29,4,4,1
+2021-01-22,mobile,(none),380,100,15,9,6
+2021-01-22,mobile,<Other>,223,52,12,9,6
+2021-01-22,mobile,cpc,72,19,5,3,1
+2021-01-22,mobile,organic,513,147,26,23,14
+2021-01-22,mobile,referral,317,87,21,13,9
+2021-01-22,tablet,(data deleted),4,2,0,0,0
+2021-01-22,tablet,(none),21,7,2,1,1
+2021-01-22,tablet,<Other>,17,4,0,0,0
+2021-01-22,tablet,cpc,3,1,1,0,0
+2021-01-22,tablet,organic,20,4,0,0,0
+2021-01-22,tablet,referral,8,1,0,0,0
+2021-01-23,desktop,(data deleted),81,19,8,5,4
+2021-01-23,desktop,(none),414,80,15,9,1
+2021-01-23,desktop,<Other>,289,75,13,7,3
+2021-01-23,desktop,cpc,83,19,0,0,0
+2021-01-23,desktop,organic,618,147,22,14,9
+2021-01-23,desktop,referral,302,74,16,10,6
+2021-01-23,mobile,(data deleted),71,16,3,4,3
+2021-01-23,mobile,(none),300,75,16,10,6
+2021-01-23,mobile,<Other>,205,55,8,2,0
+2021-01-23,mobile,cpc,60,8,1,0,0
+2021-01-23,mobile,organic,398,86,9,6,3
+2021-01-23,mobile,referral,241,63,12,8,4
+2021-01-23,tablet,(data deleted),6,1,0,0,0
+2021-01-23,tablet,(none),13,3,1,2,2
+2021-01-23,tablet,<Other>,11,5,2,0,0
+2021-01-23,tablet,cpc,4,4,0,0,0
+2021-01-23,tablet,organic,27,7,1,1,0
+2021-01-23,tablet,referral,9,2,1,0,0
+2021-01-24,desktop,(data deleted),97,23,7,3,2
+2021-01-24,desktop,(none),423,86,13,4,1
+2021-01-24,desktop,<Other>,246,55,10,4,3
+2021-01-24,desktop,cpc,85,11,0,0,0
+2021-01-24,desktop,organic,612,132,17,12,6
+2021-01-24,desktop,referral,316,84,13,13,7
+2021-01-24,mobile,(data deleted),53,8,3,2,1
+2021-01-24,mobile,(none),254,52,12,9,5
+2021-01-24,mobile,<Other>,165,29,3,2,0
+2021-01-24,mobile,cpc,57,18,3,3,2
+2021-01-24,mobile,organic,384,83,15,11,6
+2021-01-24,mobile,referral,206,41,15,6,2
+2021-01-24,tablet,(data deleted),1,1,0,0,0
+2021-01-24,tablet,(none),18,3,0,0,0
+2021-01-24,tablet,<Other>,13,6,1,0,0
+2021-01-24,tablet,cpc,2,1,0,0,0
+2021-01-24,tablet,organic,23,3,1,0,0
+2021-01-24,tablet,referral,13,5,1,0,0
+2021-01-25,desktop,(data deleted),131,39,11,7,3
+2021-01-25,desktop,(none),530,120,20,9,6
+2021-01-25,desktop,<Other>,350,83,13,6,3
+2021-01-25,desktop,cpc,104,31,4,1,1
+2021-01-25,desktop,organic,775,175,24,12,8
+2021-01-25,desktop,referral,389,97,13,12,11
+2021-01-25,mobile,(data deleted),92,20,5,3,2
+2021-01-25,mobile,(none),338,84,12,6,4
+2021-01-25,mobile,<Other>,223,52,8,6,4
+2021-01-25,mobile,cpc,64,20,0,3,3
+2021-01-25,mobile,organic,563,138,23,11,8
+2021-01-25,mobile,referral,258,68,11,5,3
+2021-01-25,tablet,(data deleted),7,0,0,0,0
+2021-01-25,tablet,(none),23,3,2,2,2
+2021-01-25,tablet,<Other>,12,2,0,0,0
+2021-01-25,tablet,cpc,6,3,1,0,0
+2021-01-25,tablet,organic,29,6,0,0,0
+2021-01-25,tablet,referral,12,3,1,1,0
+2021-01-26,desktop,(data deleted),168,41,9,8,5
+2021-01-26,desktop,(none),540,117,18,14,6
+2021-01-26,desktop,<Other>,353,79,9,4,1
+2021-01-26,desktop,cpc,101,14,2,1,0
+2021-01-26,desktop,organic,812,191,24,14,6
+2021-01-26,desktop,referral,417,90,18,9,5
+2021-01-26,mobile,(data deleted),107,23,5,5,5
+2021-01-26,mobile,(none),343,94,15,14,7
+2021-01-26,mobile,<Other>,231,50,7,0,0
+2021-01-26,mobile,cpc,85,24,3,3,1
+2021-01-26,mobile,organic,559,141,25,8,7
+2021-01-26,mobile,referral,282,76,7,6,5
+2021-01-26,tablet,(data deleted),6,1,0,1,1
+2021-01-26,tablet,(none),20,4,0,0,0
+2021-01-26,tablet,<Other>,14,2,0,0,0
+2021-01-26,tablet,cpc,6,1,0,0,0
+2021-01-26,tablet,organic,33,11,1,0,0
+2021-01-26,tablet,referral,12,4,0,0,0
+2021-01-27,desktop,(data deleted),225,75,15,10,2
+2021-01-27,desktop,(none),613,158,31,17,9
+2021-01-27,desktop,<Other>,368,94,15,8,1
+2021-01-27,desktop,cpc,110,18,3,1,1
+2021-01-27,desktop,organic,913,223,37,14,4
+2021-01-27,desktop,referral,485,120,23,7,2
+2021-01-27,mobile,(data deleted),126,40,6,6,4
+2021-01-27,mobile,(none),384,101,27,14,5
+2021-01-27,mobile,<Other>,256,72,19,9,6
+2021-01-27,mobile,cpc,69,21,3,0,0
+2021-01-27,mobile,organic,610,155,22,12,5
+2021-01-27,mobile,referral,338,90,29,20,11
+2021-01-27,tablet,(data deleted),7,1,0,0,0
+2021-01-27,tablet,(none),22,4,1,0,0
+2021-01-27,tablet,<Other>,7,3,0,0,0
+2021-01-27,tablet,cpc,4,2,1,1,0
+2021-01-27,tablet,organic,43,7,3,0,0
+2021-01-27,tablet,referral,19,7,0,1,1
+2021-01-28,desktop,(data deleted),167,53,18,7,6
+2021-01-28,desktop,(none),609,151,30,11,7
+2021-01-28,desktop,<Other>,344,84,16,7,6
+2021-01-28,desktop,cpc,96,25,4,2,0
+2021-01-28,desktop,organic,779,182,23,8,4
+2021-01-28,desktop,referral,463,109,19,7,4
+2021-01-28,mobile,(data deleted),113,29,11,6,5
+2021-01-28,mobile,(none),393,100,17,10,6
+2021-01-28,mobile,<Other>,244,57,8,1,0
+2021-01-28,mobile,cpc,73,16,5,4,1
+2021-01-28,mobile,organic,556,118,13,10,7
+2021-01-28,mobile,referral,304,81,21,13,7
+2021-01-28,tablet,(data deleted),2,1,0,1,1
+2021-01-28,tablet,(none),16,7,1,1,1
+2021-01-28,tablet,<Other>,11,5,1,0,0
+2021-01-28,tablet,cpc,2,1,0,0,0
+2021-01-28,tablet,organic,26,6,1,1,0
+2021-01-28,tablet,referral,18,6,1,0,0
+2021-01-29,desktop,(data deleted),145,36,8,3,0
+2021-01-29,desktop,(none),525,131,25,15,9
+2021-01-29,desktop,<Other>,290,58,10,6,1
+2021-01-29,desktop,cpc,105,30,6,2,0
+2021-01-29,desktop,organic,761,193,32,13,6
+2021-01-29,desktop,referral,378,90,21,15,13
+2021-01-29,mobile,(data deleted),85,28,12,8,6
+2021-01-29,mobile,(none),345,70,15,11,6
+2021-01-29,mobile,<Other>,239,45,9,3,2
+2021-01-29,mobile,cpc,49,12,3,1,0
+2021-01-29,mobile,organic,521,105,10,5,4
+2021-01-29,mobile,referral,260,59,8,7,3
+2021-01-29,tablet,(data deleted),7,1,0,0,0
+2021-01-29,tablet,(none),21,5,1,2,1
+2021-01-29,tablet,<Other>,10,3,0,0,0
+2021-01-29,tablet,cpc,3,2,1,1,1
+2021-01-29,tablet,organic,36,11,0,1,1
+2021-01-29,tablet,referral,11,5,0,0,0
+2021-01-30,desktop,(data deleted),104,27,7,5,3
+2021-01-30,desktop,(none),397,85,19,10,6
+2021-01-30,desktop,<Other>,243,51,7,1,0
+2021-01-30,desktop,cpc,80,19,3,0,0
+2021-01-30,desktop,organic,548,119,20,13,5
+2021-01-30,desktop,referral,303,51,9,3,2
+2021-01-30,mobile,(data deleted),67,12,4,3,1
+2021-01-30,mobile,(none),277,56,10,3,2
+2021-01-30,mobile,<Other>,161,34,3,2,1
+2021-01-30,mobile,cpc,48,9,1,0,0
+2021-01-30,mobile,organic,397,88,11,4,2
+2021-01-30,mobile,referral,206,38,10,5,4
+2021-01-30,tablet,(data deleted),4,1,0,0,0
+2021-01-30,tablet,(none),17,4,2,0,0
+2021-01-30,tablet,<Other>,12,6,2,2,0
+2021-01-30,tablet,cpc,1,0,0,0,0
+2021-01-30,tablet,organic,29,5,1,0,0
+2021-01-30,tablet,referral,6,0,0,0,0
+2021-01-31,desktop,(data deleted),95,19,5,1,1
+2021-01-31,desktop,(none),370,82,19,13,7
+2021-01-31,desktop,<Other>,244,47,11,4,1
+2021-01-31,desktop,cpc,91,19,1,1,0
+2021-01-31,desktop,organic,556,114,18,10,2
+2021-01-31,desktop,referral,269,50,5,4,0
+2021-01-31,mobile,(data deleted),69,15,5,3,1
+2021-01-31,mobile,(none),264,54,12,2,0
+2021-01-31,mobile,<Other>,152,31,5,5,2
+2021-01-31,mobile,cpc,59,8,0,0,0
+2021-01-31,mobile,organic,390,73,14,6,2
+2021-01-31,mobile,referral,208,47,6,5,1
+2021-01-31,tablet,(data deleted),2,0,0,0,0
+2021-01-31,tablet,(none),13,2,0,0,0
+2021-01-31,tablet,<Other>,10,3,1,1,1
+2021-01-31,tablet,cpc,4,0,0,0,0
+2021-01-31,tablet,organic,28,2,0,0,0
+2021-01-31,tablet,referral,17,3,1,1,0

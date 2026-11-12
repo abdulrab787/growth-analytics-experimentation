@@ -1,0 +1,29 @@
+{
+  "name": "CY25SU12",
+  "dataColors": [
+    "#1F6FB2",
+    "#F59E0B",
+    "#1E8449",
+    "#C0392B",
+    "#7D3C98",
+    "#06B6D4",
+    "#64748B",
+    "#EC4899"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#1F2937",
+  "tableAccent": "#0B2545",
+  "good": "#1E8449",
+  "neutral": "#F39C12",
+  "bad": "#C0392B",
+  "textClasses": {
+    "label": {
+      "fontFace": "Segoe UI",
+      "color": "#374151"
+    },
+    "title": {
+      "fontFace": "Segoe UI Semibold",
+      "color": "#0B2545"
+    }
+  }
+}

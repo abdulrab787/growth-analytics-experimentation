@@ -1,0 +1,27 @@
+table funnel_steps
+	lineageTag: b7395444-508f-44af-83cb-973cbd4aeb53
+
+	column Step
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: aa0d5a7f-16d6-487e-a06b-35b7b07aee84
+		summarizeBy: none
+		sourceColumn: Step
+
+	column 'Step Name'
+		dataType: string
+		lineageTag: 4d81d1f4-97f5-4715-a8e9-70cdaf7ff2fb
+		summarizeBy: none
+		sourceColumn: Step Name
+		sortByColumn: Step
+
+	partition funnel_steps = m
+		mode: import
+		source =
+				let
+				    Source = #table(type table [Step = Int64.Type, #"Step Name" = text], {
+				        {1, "1 Sessions"}, {2, "2 Viewed item"}, {3, "3 Added to cart"}, {4, "4 Began checkout"}, {5, "5 Purchased"}})
+				in
+				    Source
+

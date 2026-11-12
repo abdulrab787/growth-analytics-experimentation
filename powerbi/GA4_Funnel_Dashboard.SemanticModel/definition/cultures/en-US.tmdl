@@ -1,0 +1,731 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "2.0.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "dim_date.period": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_date",
+			          "ConceptualProperty": "Period"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "📅  Season period": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "fact_daily_funnel.device_category": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_daily_funnel",
+			          "ConceptualProperty": "device_category"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "💻  Device": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Device": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "fact_daily_funnel.medium": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_daily_funnel",
+			          "ConceptualProperty": "medium"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "🌐  First-touch medium": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "First-touch medium": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Medium": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "fact_daily_funnel.total_sessions": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_daily_funnel",
+			          "ConceptualProperty": "Total Sessions"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "👥  Sessions": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Sessions": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Daily sessions": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "fact_daily_funnel.view_rate": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_daily_funnel",
+			          "ConceptualProperty": "View Rate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "👁️  Viewed a product": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "fact_daily_funnel.checkout_rate_of_views": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_daily_funnel",
+			          "ConceptualProperty": "Checkout Rate of Views"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "🛒  Checkout rate of views": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "🧾  Checkout rate of views": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Checkout rate of views": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "fact_daily_funnel.checkout_to_purchase": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_daily_funnel",
+			          "ConceptualProperty": "Checkout to Purchase"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "💳  Checkout → purchase": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "fact_daily_funnel.purchase_rate": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_daily_funnel",
+			          "ConceptualProperty": "Purchase Rate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "✅  Purchase rate": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "fact_daily_funnel.funnel_value": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_daily_funnel",
+			          "ConceptualProperty": "Funnel Value"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Sessions": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "fact_daily_funnel.step_conversion": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_daily_funnel",
+			          "ConceptualProperty": "Step Conversion"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% of previous step": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "fact_daily_funnel.share_of_sessions": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_daily_funnel",
+			          "ConceptualProperty": "Share of Sessions"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% of all sessions": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "fact_daily_funnel.cart_rate": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_daily_funnel",
+			          "ConceptualProperty": "Cart Rate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "🛒  Add-to-cart rate": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Add-to-cart rate": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "fact_daily_funnel.purchase_sessions": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_daily_funnel",
+			          "ConceptualProperty": "Purchase Sessions"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "📦  Purchases": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "fact_daily_funnel.purchase_rate_7d_rolling": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_daily_funnel",
+			          "ConceptualProperty": "Purchase Rate 7d Rolling"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "7-day purchase rate": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "funnel_steps.step_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "funnel_steps",
+			          "ConceptualProperty": "Step Name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Step": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "experiment_results.scenario": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "experiment_results",
+			          "ConceptualProperty": "scenario"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "🧪  Scenario": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Scenario": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "experiment_results.test_decision": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "experiment_results",
+			          "ConceptualProperty": "Test Decision"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "🏁  Decision": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "experiment_results.primary_lift": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "experiment_results",
+			          "ConceptualProperty": "Primary Lift"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "📈  Primary lift": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "experiment_results.primary_pvalue": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "experiment_results",
+			          "ConceptualProperty": "Primary p-value"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "🎯  p-value": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "experiment_results.primary_pvariant_better": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "experiment_results",
+			          "ConceptualProperty": "Primary P(Variant Better)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "🎲  P(variant better)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "experiment_results.guardrail_lift": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "experiment_results",
+			          "ConceptualProperty": "Guardrail Lift"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "🛡️  Guardrail lift": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "experiment_results.srm_pvalue": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "experiment_results",
+			          "ConceptualProperty": "SRM p-value"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "⚖️  Split check p": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "experiment_results.metric": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "experiment_results",
+			          "ConceptualProperty": "metric"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Metric": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "experiment_results.control_rate": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "experiment_results",
+			          "ConceptualProperty": "Control Rate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Control": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "experiment_results.variant_rate": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "experiment_results",
+			          "ConceptualProperty": "Variant Rate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Variant": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "experiment_results.relative_lift": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "experiment_results",
+			          "ConceptualProperty": "relative_lift"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Lift": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "experiment_results.ci_low": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "experiment_results",
+			          "ConceptualProperty": "ci_low"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "CI low": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "experiment_results.ci_high": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "experiment_results",
+			          "ConceptualProperty": "ci_high"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "CI high": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "experiment_results.p_value": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "experiment_results",
+			          "ConceptualProperty": "p_value"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "p": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "experiment_results.prob_variant_better": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "experiment_results",
+			          "ConceptualProperty": "prob_variant_better"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "P(better)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+

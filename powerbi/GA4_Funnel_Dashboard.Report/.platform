@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "GA4_Funnel_Dashboard"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "b1e221a0-c099-4578-90e7-803baef62ef5"
+  }
+}

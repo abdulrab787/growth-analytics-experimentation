@@ -1,0 +1,164 @@
+table fact_daily_funnel
+	lineageTag: 0bade948-508c-4672-acc5-bd44fefec6e4
+
+	measure 'Total Sessions' = SUM(fact_daily_funnel[sessions])
+		formatString: #,0
+		displayFolder: 1 Volume
+		lineageTag: 87a06914-8739-45c7-8dcf-222d8f000dee
+
+	measure 'Item View Sessions' = SUM(fact_daily_funnel[item_views])
+		formatString: #,0
+		displayFolder: 1 Volume
+		lineageTag: 85e2722a-daee-452d-90b8-40634b5a03b2
+
+	measure 'Cart Sessions' = SUM(fact_daily_funnel[add_to_carts])
+		formatString: #,0
+		displayFolder: 1 Volume
+		lineageTag: 07cfc813-8b6c-401a-9ecf-d0762e050dab
+
+	measure 'Checkout Sessions' = SUM(fact_daily_funnel[checkouts])
+		formatString: #,0
+		displayFolder: 1 Volume
+		lineageTag: e056090c-96b5-4e06-aca9-33288b70437d
+
+	measure 'Purchase Sessions' = SUM(fact_daily_funnel[purchases])
+		formatString: #,0
+		displayFolder: 1 Volume
+		lineageTag: 5eb08286-ac85-42ff-8f72-b9897a01a68c
+
+	measure 'View Rate' = DIVIDE([Item View Sessions], [Total Sessions])
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: 2 Rates
+		lineageTag: 27e496ab-08eb-44d4-b163-85a241b324a7
+
+	measure 'Cart Rate of Views' = DIVIDE([Cart Sessions], [Item View Sessions])
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: 2 Rates
+		lineageTag: fed823ab-117d-4e68-ad82-1df961670d8f
+
+	measure 'Checkout Rate of Views' = DIVIDE([Checkout Sessions], [Item View Sessions])
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: 2 Rates
+		lineageTag: 371cfbe2-4d24-4815-8df4-80bfffa12833
+
+	measure 'Checkout to Purchase' = DIVIDE([Purchase Sessions], [Checkout Sessions])
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: 2 Rates
+		lineageTag: 7b5105f3-f97c-4ec9-ade3-f380a2659085
+
+	measure 'Purchase Rate' = DIVIDE([Purchase Sessions], [Total Sessions])
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: 2 Rates
+		lineageTag: 46072da3-f555-4cf5-97f5-c6f6ac7ab497
+
+	measure 'Cart Rate' = DIVIDE([Cart Sessions], [Total Sessions])
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: 2 Rates
+		lineageTag: 419cd337-04bb-4320-9b54-ca12bdb4120f
+
+	measure 'Purchase Rate 7d Rolling' =
+			VAR LastDay = MAX(dim_date[Date])
+			VAR Window = DATESINPERIOD(dim_date[Date], LastDay, -7, DAY)
+			RETURN
+				DIVIDE(
+					CALCULATE([Purchase Sessions], Window),
+					CALCULATE([Total Sessions], Window)
+				)
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: 3 Trend
+		lineageTag: 53dec1bc-7a03-495c-934f-4400eb55a9c7
+
+	measure 'Funnel Value' =
+			SWITCH(
+				SELECTEDVALUE(funnel_steps[Step]),
+				1, [Total Sessions],
+				2, [Item View Sessions],
+				3, [Cart Sessions],
+				4, [Checkout Sessions],
+				5, [Purchase Sessions]
+			)
+		formatString: #,0
+		displayFolder: 4 Funnel
+		lineageTag: 487dcf6d-7aed-4605-bf41-423e8c955a49
+
+	measure 'Step Conversion' =
+			VAR StepNo = SELECTEDVALUE(funnel_steps[Step])
+			VAR PrevValue =
+				SWITCH(StepNo, 2, [Total Sessions], 3, [Item View Sessions], 4, [Cart Sessions], 5, [Checkout Sessions])
+			RETURN
+				DIVIDE([Funnel Value], PrevValue)
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: 4 Funnel
+		lineageTag: 46341b3b-183c-4e19-9255-affa73d3ef2f
+
+	measure 'Share of Sessions' = DIVIDE([Funnel Value], [Total Sessions])
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: 4 Funnel
+		lineageTag: c6f98c16-8980-4a1a-9f0b-4e9628188129
+
+	column date
+		dataType: dateTime
+		formatString: dd mmm yyyy
+		lineageTag: a410380d-83f7-44c9-a911-2567df58269b
+		summarizeBy: none
+		sourceColumn: date
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column device_category
+		dataType: string
+		lineageTag: 4433b231-8af8-4d19-8982-b09cf2cbd640
+		summarizeBy: none
+		sourceColumn: device_category
+
+	column medium
+		dataType: string
+		lineageTag: bcc5c50f-4083-4220-a00e-7311961ed001
+		summarizeBy: none
+		sourceColumn: medium
+
+	column sessions
+		dataType: int64
+		formatString: 0
+		lineageTag: 139d5552-1141-46aa-ab39-bb339ebf05f5
+		summarizeBy: sum
+		sourceColumn: sessions
+
+	column item_views
+		dataType: int64
+		formatString: 0
+		lineageTag: 447c2c6b-e7c0-4e34-b72f-6f05972ef02c
+		summarizeBy: sum
+		sourceColumn: item_views
+
+	column add_to_carts
+		dataType: int64
+		formatString: 0
+		lineageTag: 25b46e98-01db-4930-9645-b954d2ff963d
+		summarizeBy: sum
+		sourceColumn: add_to_carts
+
+	column checkouts
+		dataType: int64
+		formatString: 0
+		lineageTag: b722c214-d7c3-4c5e-aba0-8efbb3a27ac2
+		summarizeBy: sum
+		sourceColumn: checkouts
+
+	column purchases
+		dataType: int64
+		formatString: 0
+		lineageTag: 62ad6b29-62ff-47bc-a774-bd8ec4984c32
+		summarizeBy: sum
+		sourceColumn: purchases
+
+	partition fact_daily_funnel = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "fact_daily_funnel.csv"), [Delimiter=",", Columns=8, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"date", type date}, {"device_category", type text}, {"medium", type text}, {"sessions", Int64.Type}, {"item_views", Int64.Type}, {"add_to_carts", Int64.Type}, {"checkouts", Int64.Type}, {"purchases", Int64.Type}}, "en-US")
+				in
+				    Typed
+

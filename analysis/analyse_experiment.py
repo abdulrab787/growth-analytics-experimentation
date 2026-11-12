@@ -57,6 +57,7 @@ def decide(p_primary, lift_primary, p_guard, lift_guard):
     return "KEEP CONTROL - no detectable effect"
 
 scen = sorted({r["scenario"] for r in rows})
+export = []  # tidy results for the Power BI report
 for s in scen:
     c = next(r for r in rows if r["scenario"] == s and r["arm"] == "control")
     v = next(r for r in rows if r["scenario"] == s and r["arm"] == "variant")
@@ -69,12 +70,26 @@ for s in scen:
         rc, rv, lift, lo, hi, p = compare(c, v, num, sq, cross)
         pb, loss = bayes(c, v, num)
         out[num] = (p, lift)
+        export.append(dict(scenario=s, metric=label.split(" (")[0], role=label.split("(")[1].rstrip(")"),
+                           control_rate=round(rc, 6), variant_rate=round(rv, 6), relative_lift=round(lift, 6),
+                           ci_low=round(lo, 6), ci_high=round(hi, 6), p_value=round(p, 4),
+                           prob_variant_better=round(float(pb), 4)))
         print(f"{label:27} control {rc:6.2%}  variant {rv:6.2%}  lift {lift:+6.1%} "
               f"[{lo:+.1%}, {hi:+.1%}]  p={p:.3f}  P(variant>control)={pb:.1%}  exp.loss={loss*100:.3f}pp")
     # guardrail: purchase rate among sessions that started checkout
     cr_c, cr_v = c["purchases"] / c["checkouts"], v["purchases"] / v["checkouts"]
     print(f"{'Checkout->purchase':27} control {cr_c:6.2%}  variant {cr_v:6.2%}")
-    print("Decision:", decide(*out["checkouts"], *out["purchases"]))
+    decision = decide(*out["checkouts"], *out["purchases"])
+    print("Decision:", decision)
+    for e in export:
+        if e["scenario"] == s:
+            e["decision"] = decision
+            e["srm_p_value"] = round(srm(c, v), 4)
+            e["control_users"], e["variant_users"] = c["users"], v["users"]
+
+with open("powerbi/data/experiment_results.csv", "w", newline="") as f:
+    w = csv.DictWriter(f, fieldnames=list(export[0].keys()))
+    w.writeheader(); w.writerows(export)
 
 # Power actually achieved in the January window (baseline differed from the plan)
 c = rows[0]

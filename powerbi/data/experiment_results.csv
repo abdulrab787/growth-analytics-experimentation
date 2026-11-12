@@ -1,0 +1,7 @@
+scenario,metric,role,control_rate,variant_rate,relative_lift,ci_low,ci_high,p_value,prob_variant_better,decision,srm_p_value,control_users,variant_users
+A_true_lift,Checkout rate,primary,0.091068,0.099388,0.091355,0.000898,0.181811,0.0478,0.982,SHIP,0.7638,9288,9329
+A_true_lift,Purchase rate,guardrail,0.047746,0.050594,0.059645,-0.061328,0.180618,0.3339,0.8353,SHIP,0.7638,9288,9329
+B_aa_no_effect,Checkout rate,primary,0.091068,0.090115,-0.010465,-0.099386,0.078455,0.8176,0.4035,KEEP CONTROL - no detectable effect,0.7638,9288,9329
+B_aa_no_effect,Purchase rate,guardrail,0.047746,0.046453,-0.027088,-0.145787,0.091612,0.6547,0.3253,KEEP CONTROL - no detectable effect,0.7638,9288,9329
+C_hollow_lift,Checkout rate,primary,0.091068,0.099388,0.091355,0.000898,0.181811,0.0478,0.982,DON'T SHIP - checkout up but purchases did not follow,0.7638,9288,9329
+C_hollow_lift,Purchase rate,guardrail,0.047746,0.046453,-0.027088,-0.145787,0.091612,0.6547,0.3253,DON'T SHIP - checkout up but purchases did not follow,0.7638,9288,9329

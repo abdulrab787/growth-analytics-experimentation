@@ -1,0 +1,162 @@
+table experiment_results
+	lineageTag: e456fde1-9436-42a6-ba2a-96416e721438
+
+	measure 'Test Decision' =
+			VAR sc = SELECTEDVALUE(experiment_results[scenario], "A_true_lift")
+			RETURN sc & "  ·  " & CALCULATE(MAX(experiment_results[decision]), experiment_results[scenario] = sc)
+		displayFolder: Experiment
+		lineageTag: 7ff7ce1b-9944-4454-9ea0-9a3af70faa01
+
+	measure 'Primary Lift' =
+			VAR sc = SELECTEDVALUE(experiment_results[scenario], "A_true_lift")
+			RETURN CALCULATE(MAX(experiment_results[relative_lift]), experiment_results[role] = "primary", experiment_results[scenario] = sc)
+		formatString: +0.0%;-0.0%;0.0%
+		displayFolder: Experiment
+		lineageTag: 32fe0afd-4514-4710-b1f3-17877a873a62
+
+	measure 'Primary p-value' =
+			VAR sc = SELECTEDVALUE(experiment_results[scenario], "A_true_lift")
+			RETURN CALCULATE(MAX(experiment_results[p_value]), experiment_results[role] = "primary", experiment_results[scenario] = sc)
+		formatString: 0.000
+		displayFolder: Experiment
+		lineageTag: dc2538ff-9ece-4332-80b0-e3b3770cbfd7
+
+	measure 'Primary P(Variant Better)' =
+			VAR sc = SELECTEDVALUE(experiment_results[scenario], "A_true_lift")
+			RETURN CALCULATE(MAX(experiment_results[prob_variant_better]), experiment_results[role] = "primary", experiment_results[scenario] = sc)
+		formatString: 0.0%
+		displayFolder: Experiment
+		lineageTag: 9a1d52e6-fa35-45ce-9258-fa2c303bfd9c
+
+	measure 'Guardrail Lift' =
+			VAR sc = SELECTEDVALUE(experiment_results[scenario], "A_true_lift")
+			RETURN CALCULATE(MAX(experiment_results[relative_lift]), experiment_results[role] = "guardrail", experiment_results[scenario] = sc)
+		formatString: +0.0%;-0.0%;0.0%
+		displayFolder: Experiment
+		lineageTag: f7735d48-0d57-4885-880a-74cdfc99d79f
+
+	measure 'SRM p-value' =
+			VAR sc = SELECTEDVALUE(experiment_results[scenario], "A_true_lift")
+			RETURN CALCULATE(MAX(experiment_results[srm_p_value]), experiment_results[scenario] = sc)
+		formatString: 0.000
+		displayFolder: Experiment
+		lineageTag: 649fd9bf-7540-45fc-81f0-b685f45d84af
+
+	measure 'Control Rate' =
+			VAR sc = SELECTEDVALUE(experiment_results[scenario], "A_true_lift")
+			RETURN CALCULATE(AVERAGE(experiment_results[control_rate]), experiment_results[scenario] = sc)
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: Experiment
+		lineageTag: 75b5539d-08c5-483c-8c73-e3e096e76896
+
+	measure 'Variant Rate' =
+			VAR sc = SELECTEDVALUE(experiment_results[scenario], "A_true_lift")
+			RETURN CALCULATE(AVERAGE(experiment_results[variant_rate]), experiment_results[scenario] = sc)
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: Experiment
+		lineageTag: 2b73d2fe-0f9f-41a1-9bf7-45e7a70cf17e
+
+	column scenario
+		dataType: string
+		lineageTag: a6ab631c-8f2a-4faa-9973-502cdfd7e00c
+		summarizeBy: none
+		sourceColumn: scenario
+
+	column metric
+		dataType: string
+		lineageTag: 5d33c94f-bb78-4e92-85d9-86c1dbe4b32e
+		summarizeBy: none
+		sourceColumn: metric
+
+	column role
+		dataType: string
+		lineageTag: f138e4e2-9479-4222-b039-05f203693d7c
+		summarizeBy: none
+		sourceColumn: role
+
+	column control_rate
+		dataType: double
+		formatString: 0.00%
+		lineageTag: 6ddc05ba-adfe-4257-94e2-f911cb5cec58
+		summarizeBy: none
+		sourceColumn: control_rate
+
+	column variant_rate
+		dataType: double
+		formatString: 0.00%
+		lineageTag: 774443ab-ae81-4dd7-80a5-18b52219d5fa
+		summarizeBy: none
+		sourceColumn: variant_rate
+
+	column relative_lift
+		dataType: double
+		formatString: 0.00%
+		lineageTag: af529505-149d-49ea-a32b-5623dbbae7db
+		summarizeBy: none
+		sourceColumn: relative_lift
+
+	column ci_low
+		dataType: double
+		formatString: 0.00%
+		lineageTag: 3d0474fc-c56a-4421-9c75-41c6c5c49b2d
+		summarizeBy: none
+		sourceColumn: ci_low
+
+	column ci_high
+		dataType: double
+		formatString: 0.00%
+		lineageTag: 986fc244-eaa8-4bd3-8b03-a3764e67e94f
+		summarizeBy: none
+		sourceColumn: ci_high
+
+	column p_value
+		dataType: double
+		formatString: 0.000
+		lineageTag: f7830364-1888-47a2-897d-896fa69b8778
+		summarizeBy: none
+		sourceColumn: p_value
+
+	column prob_variant_better
+		dataType: double
+		formatString: 0.0%
+		lineageTag: 6ace0113-bc5f-4115-8f9a-095f12afe052
+		summarizeBy: none
+		sourceColumn: prob_variant_better
+
+	column decision
+		dataType: string
+		lineageTag: e60c8951-adf1-4179-9194-91db3a84c8c0
+		summarizeBy: none
+		sourceColumn: decision
+
+	column srm_p_value
+		dataType: double
+		formatString: 0.000
+		lineageTag: f35a5439-8292-4ba0-8dd7-bf69639a1519
+		summarizeBy: none
+		sourceColumn: srm_p_value
+
+	column control_users
+		dataType: int64
+		formatString: #,0
+		lineageTag: f05ade05-e056-4045-8a7e-26ec87320fd8
+		summarizeBy: sum
+		sourceColumn: control_users
+
+	column variant_users
+		dataType: int64
+		formatString: #,0
+		lineageTag: 3b85829b-a1ce-4cc6-a250-25da13f6ffbb
+		summarizeBy: sum
+		sourceColumn: variant_users
+
+	partition experiment_results = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "experiment_results.csv"), [Delimiter=",", Columns=14, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"scenario", type text}, {"metric", type text}, {"role", type text}, {"control_rate", type number}, {"variant_rate", type number}, {"relative_lift", type number}, {"ci_low", type number}, {"ci_high", type number}, {"p_value", type number}, {"prob_variant_better", type number}, {"decision", type text}, {"srm_p_value", type number}, {"control_users", Int64.Type}, {"variant_users", Int64.Type}}, "en-US")
+				in
+				    Typed
+

@@ -1,0 +1,4 @@
+relationship 83b3b15f-c7f5-4620-b958-856029e52110
+	fromColumn: fact_daily_funnel.date
+	toColumn: dim_date.Date
+
