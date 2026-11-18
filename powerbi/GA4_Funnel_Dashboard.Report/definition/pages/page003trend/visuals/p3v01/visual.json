@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "p3v01",
   "position": {
     "x": 236,
@@ -26,7 +26,8 @@
                   "Property": "Date"
                 }
               },
-              "queryRef": "dim_date.Date"
+              "queryRef": "dim_date.Date",
+              "active": true
             }
           ]
         },
@@ -67,6 +68,25 @@
           ]
         }
       }
+    },
+    "objects": {
+      "dataPoint": [
+        {
+          "properties": {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#BFD3EA'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
     },
     "visualContainerObjects": {
       "background": [
@@ -231,25 +251,6 @@
         }
       ]
     },
-    "drillFilterOtherVisuals": true,
-    "objects": {
-      "dataPoint": [
-        {
-          "properties": {
-            "fill": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#BFD3EA'"
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      ]
-    }
+    "drillFilterOtherVisuals": true
   }
 }
