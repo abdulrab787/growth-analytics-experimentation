@@ -98,5 +98,5 @@ n_arm = (rows[0]["sessions"] + rows[1]["sessions"]) / 2
 es = proportion_effectsize(p0 * 1.10, p0)
 power = NormalIndPower().power(effect_size=es, nobs1=n_arm, alpha=0.05)
 need = NormalIndPower().solve_power(effect_size=es, alpha=0.05, power=0.8)
-print(f"\nJanuary baseline {p0:.2%} (plan assumed 14.42%). Power to detect +10% with "
+print(f"\nJanuary baseline {p0:.2%} (3-month baseline 14.05%). Power to detect +10% with "
       f"{n_arm:,.0f} sessions/arm = {power:.0%}; 80% power needs {need:,.0f}/arm.")

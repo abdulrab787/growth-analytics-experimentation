@@ -41,7 +41,7 @@
               {
                 "textRuns": [
                   {
-                    "value": "January's checkout baseline (9.1%) was well below the 3-month average (14.4%) — always size a test on its own window.",
+                    "value": "January's checkout baseline (9.1%) was well below the 3-month average (14.1%) — always size a test on its own window.",
                     "textStyle": {
                       "fontSize": "10pt",
                       "color": "#1F2937"

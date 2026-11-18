@@ -20,4 +20,4 @@ Purchase rate (guardrail)   control  4.77%  variant  4.65%  lift  -2.7% [-14.6%,
 Checkout->purchase          control 52.43%  variant 46.74%
 Decision: DON'T SHIP - checkout up but purchases did not follow
 
-January baseline 9.11% (plan assumed 14.42%). Power to detect +10% with 10,978 sessions/arm = 63%; 80% power needs 16,360/arm.
+January baseline 9.11% (3-month baseline 14.05%). Power to detect +10% with 10,978 sessions/arm = 63%; 80% power needs 16,360/arm.

@@ -13,7 +13,7 @@
 | Began checkout | 11,106 | 73.1% | 3.08% |
 | Purchased | 4,848 | 43.7% | 1.35% |
 
-- The biggest losses happen before checkout. 79% of sessions never view a product, and only 14.4% of product-viewing sessions start checkout.
+- The biggest losses happen before checkout. 79% of sessions never view a product, and only 14.05% of product-viewing sessions go on to start checkout. That rate counts only sessions with both events: 281 checkout sessions (2.5%) never view a product, so dividing all checkouts by product views would overstate it as 14.42%.
 - Device type doesn't explain the leak. Desktop, mobile and tablet purchase rates are all between 1.30% and 1.39%.
 - Purchase rate by first-touch medium runs from 0.98% (cpc) to 1.66% (referral). `traffic_source` is the user's first-touch source, so these rates can't be read as session-level channel performance.
 
@@ -26,10 +26,10 @@
 | # | Hypothesis | Primary metric | Who enters the test | Baseline | Detectable lift | Duration |
 |---|---|---|---|---|---|---|
 | H1 | Putting products on landing and home pages (instead of promos) raises the share of sessions that view a product | View-item rate | All sessions | 21.4% | +5% relative | 2 weeks |
-| **H2** | **Showing delivery cost, delivery date and stock on the product page reduces hesitation and raises checkout starts** | **Begin-checkout rate** | **Sessions that view an item** | **14.4%** | **+10% relative** | **4 weeks** |
-| H3 | Guest checkout and fewer form fields raise checkout completion | Purchase rate | Sessions that begin checkout | 43.7% | +10% relative | 5 weeks |
+| **H2** | **Showing delivery cost, delivery date and stock on the product page reduces hesitation and raises checkout starts** | **Begin-checkout rate** | **Sessions that view an item** | **14.05%** | **+10% relative** | **4 weeks** |
+| H3 | Guest checkout and fewer form fields raise checkout completion | Purchase rate | Sessions that begin checkout | 43.6% | +10% relative | 5 weeks |
 
-Sample sizes use alpha 0.05, 80% power, a two-sided test and a 50/50 split. They come from `analysis/sample_size.py`.
+Sample sizes use alpha 0.05, 80% power, a two-sided test and a 50/50 split. Traffic inputs: 3,914 sessions a day on average (about 1,957 per arm) and 837 product-viewing sessions a day. The numbers come from `analysis/sample_size.py`, and its output is in `analysis/sample_size_results.txt`.
 
 **Recommendation: run H2 first.** It targets the largest leak that's still close to revenue, uses a reliably tracked event, and can detect a 10% lift in 4 weeks. H1 is faster, but it's furthest from revenue. H3 would take 5 weeks to detect a 10% lift, and 20 weeks for 5%, because so few sessions reach checkout.
 
@@ -41,7 +41,7 @@ For comparison, testing overall purchase rate would need 471k sessions per arm (
 - **Trigger:** a user enters the test on their first `view_item`. Sessions with no product view are excluded.
 - **Primary metric:** sessions with `begin_checkout` ÷ sessions with `view_item`.
 - **Guardrail metrics:** purchase rate per triggered session, revenue per triggered session, and checkout-to-purchase rate. A variant that pulls more people into checkout but loses them there doesn't count as a win.
-- **Sample:** about 9,700 triggered sessions per arm, about 4 weeks at the current traffic level.
+- **Sample:** about 10,000 triggered sessions per arm (9,992), 24 days, so 4 whole weeks at the current traffic level.
 - **Timing:** run whole weeks only, and avoid mid-November to mid-January. The 7-day purchase rate swings about 4x across Black Friday, Cyber Monday, December and the post-holiday slump.
 - **Stopping rule:** decide the duration in advance and don't stop early on a significant result. If you need to check results mid-test, use a sequential method such as mSPRT.
 - **Pre-launch checks:** an A/A test or sample ratio mismatch (SRM) check, plus confirming that `view_item` and `begin_checkout` fire the same way in both variants.
@@ -74,6 +74,6 @@ The user split passed the check in every scenario: 9,288 vs 9,329 users, p = 0.7
 
 **What the simulation shows**
 
-1. **The plan was underpowered for its actual time window.** January's baseline checkout rate was 9.1%, not the 14.4% average across all three months. With about 11,000 sessions per arm, the test had only 63% power to detect a 10% lift, and needed about 16,400 sessions per arm for 80%. A real 10% lift was only just detected (p = 0.048). Recalculate the baseline for the actual test window before launch, not from a long average.
+1. **The plan was underpowered for its actual time window.** January's baseline checkout rate was 9.1%, not the 14.05% average across all three months. With about 11,000 sessions per arm, the test had only 63% power to detect a 10% lift, and needed about 16,400 sessions per arm for 80%. A real 10% lift was only just detected (p = 0.048). Recalculate the baseline for the actual test window before launch, not from a long average.
 2. **The method doesn't invent winners.** The A/A run showed no difference, as it should.
 3. **Guardrails matter.** Scenarios A and C have exactly the same primary result. Only the purchase guardrail and the checkout-to-purchase rate reveal that C's extra checkouts never turned into orders. Shipping on the primary metric alone would have counted a worthless change as a win.

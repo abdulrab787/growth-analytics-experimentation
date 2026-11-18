@@ -1,5 +1,5 @@
 -- Q6: Simulated H2 experiment (product page -> checkout) on real January 2021 sessions.
--- Finding: the planned 4-week test was underpowered (Jan baseline 9.1% vs 14.4% planned -> 63% power);
+-- Finding: the planned 4-week test was underpowered (Jan baseline 9.1% vs the 14.05% 3-month baseline -> 63% power);
 -- a true +10% lift was only just detected (p=0.048), and a "hollow" lift was correctly blocked by the guardrail.
 --
 -- Design: randomise by user (hash of user_pseudo_id), trigger on view_item, run 4 whole weeks

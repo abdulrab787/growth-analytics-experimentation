@@ -36,3 +36,25 @@ SELECT
   COUNTIF(purchased = 1 AND added_to_cart = 0)      AS purchase_without_cart,
   COUNTIF(purchased = 1 AND began_checkout = 0)     AS purchase_without_checkout
 FROM `YOUR_PROJECT.ga4_practice.sessions`;
+
+-- Data quality check: does every checkout session also view a product?
+-- Result: 281 of 11,106 checkout sessions (2.5%) have no view_item. The product page -> checkout rate
+-- must count only sessions with BOTH events: 10,825 / 77,020 = 14.05% (not 11,106 / 77,020 = 14.42%).
+-- In the 4-31 Jan test window: 1,989 / 21,957 = 9.06%.
+SELECT
+  COUNTIF(viewed_item = 1)                          AS item_view_sessions,
+  COUNTIF(began_checkout = 1)                       AS checkout_sessions,
+  COUNTIF(began_checkout = 1 AND viewed_item = 0)   AS checkout_without_view,
+  COUNTIF(began_checkout = 1 AND viewed_item = 1)   AS checkout_after_view,
+  ROUND(100 * COUNTIF(began_checkout = 1 AND viewed_item = 1) / COUNTIF(viewed_item = 1), 2) AS pdp_to_checkout_pct
+FROM `YOUR_PROJECT.ga4_practice.sessions`;
+
+-- Traffic level used for test durations
+-- Result: 3,914 sessions/day on average (median 3,838, range 2,163-7,562), i.e. ~1,957 per arm in a 50/50 test;
+-- 837 item-view sessions/day.
+SELECT ROUND(AVG(sessions)) AS avg_sessions_per_day,
+       APPROX_QUANTILES(sessions, 2)[OFFSET(1)] AS median_sessions_per_day,
+       MIN(sessions) AS min_day, MAX(sessions) AS max_day,
+       ROUND(AVG(item_view_sessions)) AS avg_item_view_sessions_per_day
+FROM (SELECT session_date, COUNT(*) AS sessions, COUNTIF(viewed_item = 1) AS item_view_sessions
+      FROM `YOUR_PROJECT.ga4_practice.sessions` GROUP BY session_date);

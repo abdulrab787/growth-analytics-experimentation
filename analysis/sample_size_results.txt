@@ -1,0 +1,19 @@
+=== Inputs ===
+sessions per day          3,914  (per arm in a 50/50 test: 1,957)
+item-view sessions per day 837
+purchase rate             1.35%
+product page -> checkout  14.05%  (3-month)  |  9.06%  (4-31 Jan)
+alpha 0.05, power 0.80, two-sided, 50/50 split
+
+test                                        base  lift     n/arm  days weeks
+Purchase rate, all sessions                1.35%    5%   471,430   241    35
+Purchase rate, all sessions                1.35%   10%   120,641    62     9
+Purchase rate, all sessions                1.35%   20%    31,528    17     3
+H1 View-item rate, all sessions           21.39%    3%    64,806    34     5
+H1 View-item rate, all sessions           21.39%    5%    23,494    13     2
+H2 Checkout rate, item-view sessions      14.05%    5%    39,190    94    14
+H2 Checkout rate, item-view sessions      14.05%   10%     9,992    24     4
+H2 same, January test window               9.06%    5%    64,443   165    24
+H2 same, January test window               9.06%   10%    16,456    42     6
+H3 Purchase rate, checkout sessions       43.63%    5%     8,155   136    20
+H3 Purchase rate, checkout sessions       43.63%   10%     2,046    34     5

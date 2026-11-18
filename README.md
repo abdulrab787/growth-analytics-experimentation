@@ -24,12 +24,29 @@ It's a 4-page Power BI report saved in PBIP format, with navigation buttons, syn
 
 **Data:** 92 days, 4.30M events, 270,154 users, 360,129 sessions.
 
+![GA4 purchase funnel](docs/funnel.png)
+
+**Sample-size inputs** (alpha 0.05, 80% power, two-sided, 50/50 split; [analysis/sample_size.py](analysis/sample_size.py)):
+
+| Input | Value | Source |
+|---|---|---|
+| Sessions per day | 3,914 on average (median 3,838), so about 1,957 per arm | `sql/02` traffic check |
+| Product-viewing sessions per day | 837 | `sql/02` traffic check |
+| Purchase rate | 1.35% | `sql/03` |
+| Product page → checkout | 14.05% over 3 months, 9.06% in the 4–31 Jan test window | `sql/02` check: 281 checkout sessions (2.5%) have no product view, so they're excluded from the numerator |
+
+| Test | Baseline | Lift | Sessions per arm | Duration |
+|---|---|---|---|---|
+| Purchase rate, all sessions | 1.35% | +5% | 471,430 | 35 weeks |
+| Product page → checkout (H2, recommended) | 14.05% | +10% | 9,992 | 4 weeks |
+| Product page → checkout, January window | 9.06% | +10% | 16,456 | 6 weeks |
+
 1. **The funnel converts 1.35% of sessions to a purchase.** The biggest losses come before checkout: 21.4% of sessions view a product, and 19.7% of those add to cart.
-2. **Returning users convert 4.6 times better:** 3.10% of their sessions purchase, against 0.68% for new users. New users leak most at the last step, where only 29.8% of their checkouts become purchases (59.8% for returning users). New vs returning comes from GA4's `ga_session_number`: numbering sessions with `ROW_NUMBER` inside the data window would mislabel 9,288 users as new.
+2. **Returning users convert 4.6 times better:** 3.10% of their sessions purchase (95% CI 3.00–3.21%), against 0.68% for new users (0.65–0.71%). New users leak most at the last step, where only 29.8% of their checkouts become purchases (59.8% for returning users). New vs returning comes from GA4's `ga_session_number`: numbering sessions with `ROW_NUMBER` inside the data window would mislabel 9,288 users as new.
 3. **Add-to-cart isn't reliable.** 46% of checkout sessions have no add-to-cart event in the same session, so the test plan uses `begin_checkout` instead.
-4. **Device type doesn't explain the leak.** Purchase rates run from 1.30% to 1.39% across devices. By first-touch medium, referral converts best (1.66%) and cpc worst (0.98%).
+4. **Device type doesn't explain the leak.** Purchase rates run from 1.30% to 1.39% across devices, and all three 95% confidence intervals overlap. By first-touch medium, referral (1.66%, CI 1.57–1.76%) is clearly above organic (1.10%, CI 1.04–1.16%). Paid search (cpc, 0.98%) has too few sessions to be separated from organic. Session counts and intervals for every segment are in `sql/04`.
 5. **Seasonality is strong.** The 7-day purchase rate swings about 4x (0.5% to 2.1%) across Black Friday, December and January. Tests must avoid these windows.
-6. **Purchase rate can't be tested at this traffic level.** Detecting a 5% relative lift needs 471,430 sessions per arm, about 35 weeks. The recommended test, which measures product-page-to-checkout rate, can detect a 10% lift in 4 weeks.
+6. **Purchase rate can't be tested at this traffic level.** Detecting a 5% relative lift needs 471,430 sessions per arm, about 35 weeks. The recommended test, which measures product-page-to-checkout rate (14.05% baseline), can detect a 10% lift with 9,992 sessions per arm, which is 4 weeks.
 7. **The test plan was checked with a simulation.** I ran it on real January sessions in three versions: a real lift, an A/A run and a "hollow" lift. The decision rule shipped the real lift, found nothing in the A/A run and blocked the hollow lift. The simulation also showed the plan was underpowered (63% power instead of 80%), because January's baseline was lower than the three-month average.
 
 ## Part 2: Ad campaign A/B test (Kaggle)
@@ -62,6 +79,7 @@ analysis/                         Part 1 (Python)
   sample_size.py                  sample size and duration for each hypothesis
   analyse_experiment.py           split check, delta-method z-test, Bayesian P(better), guardrails, decision
 test_brief.md                     hypotheses, recommended test design, simulated results
+docs/funnel.png                   funnel chart (made by docs/make_funnel_chart.py)
 powerbi/                          4-page dashboard (PBIP), CSV extracts, screenshots
 kaggle_ab/                        Part 2
   analyse_marketing_ab.py         split check, two-proportion test, CIs, power, total_ads diagnostic
